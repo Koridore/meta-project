@@ -3,13 +3,6 @@
   "version": "0.0.0",
   "description": "Monorepo Workspaces",
   "main": "dist/index.js",
-  "workspaces": [
-    "workspaces/apps/web/docs/*",
-    "workspaces/apps/web/*",
-    "workspaces/scripts/*",
-    "workspaces/packages/local/*",
-    "workspaces/packages/shared/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "test": "turbo run test",
@@ -18,6 +11,42 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "format-check": "prettier --check **/*.ts"
   },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "bake-cli": "^0.1.6",
+    "eslint": "^2.10.2",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "mocha": "^2.5.2",
+    "standard-version": "^2.2.1",
+    "watchd": "github:mklabs/watchd",
+    "@lentix/esconfigs": "workspace:*",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.4",
+    "turbo": "latest"
+  },
+  "bake": {
+    "description": "Scaffold a basic ES6 setup",
+    "scripts": {
+      "start": "echo Starting generation of default template",
+      "prestart": "echo prestart",
+      "poststart": "echo poststart",
+      "install": "npm install --loglevel warn --cache-min Infinity",
+      "preinstall": "echo Installing dependencies ...",
+      "postinstall": "npm ls --depth 0"
+    }
+  },
+  "workspaces": [
+    "workspaces/apps/web/docs/*",
+    "workspaces/apps/web/*",
+    "workspaces/scripts/*",
+    "workspaces/packages/local/*",
+    "workspaces/packages/shared/*"
+  ],
   "keywords": [
     "monorepo",
     "workspace"
@@ -25,16 +54,9 @@
   "author": "Lentix",
   "license": "MIT",
   "homepage": "",
-  
   "repository": {
     "type": "git",
     "url": ""
-  },
-  "devDependencies": {
-    "@lentix/esconfigs": "workspace:*",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.4",
-    "turbo": "latest"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
@@ -52,6 +74,6 @@
       "pre-commit": "pnpm lint",
       "pre-push": "pnpm test"
     }
-   },
+  },
   "packageManager": "pnpm@7.22.0"
 }

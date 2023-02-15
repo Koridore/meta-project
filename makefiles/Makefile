@@ -2,11 +2,8 @@
 # ex) production-stage: make build APP_NAME=<APP_NAME>
 # ex) development-stage: make build-dev APP_NAME=<APP_NAME>
 
-REPO_NAME = meta-project
-REPO_NAME := $(REPO_NAME) 
-
-APP_NAME = discord
-APP_NAME := $(APP_NAME), $(APP_NAME)
+APP_NAME = monorepo-express-workspaces
+APP_NAME := $(APP_NAME)
 
 .PHONY: build
 # Build the container image - Dvelopment
@@ -25,31 +22,8 @@ build:
 clean:
 	docker rmi -f ${APP_NAME}
 
+# Run the container image
+run:
+	docker run -d -it -p 3000:3000 ${APP_NAME}
 
 all: build
-
-help:
-	echo help
-
-babel:
-	babel lib/ -d src/
-
-test: babel
-	mocha -R spec
-
-eslint:
-	DEBUG="eslint:cli-engine" eslint .
-
-watch:
-	watchd lib/**.js test/**.js package.json -c 'bake babel'
-
-release: version push publish
-
-version:
-	standard-version -m '%s'
-
-push:
-	git push origin master --tags
-
-publish:
-	npm publish

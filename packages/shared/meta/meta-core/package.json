@@ -1,0 +1,77 @@
+{
+  "name": "meta",
+  "version": "0.0.0-development",
+  "description": "tool for turning many repos into a meta repo. why choose many repos or a monolithic repo, when you can have both with a meta repo?",
+  "bin": {
+    "meta": "./bin/meta"
+  },
+  "scripts": {
+    "clean-global-all": "npm run clean-global-loop-commands && npm run clean-global-loop-installs && npm run clean-global-meta-commands && npm run clean-global-meta-installs",
+    "clean-global-loop-commands": "rm -f `npm config get prefix`/bin/*loop*",
+    "clean-global-loop-installs": "rm -rf `npm config get prefix`/lib/node_modules/*loop*",
+    "clean-global-meta-commands": "rm -f `npm config get prefix`/bin/*meta*",
+    "clean-global-meta-installs": "rm -rf `npm config get prefix`/lib/node_modules/*meta*",
+    "clean": "meta-npm clean",
+    "commit": "git-cz",
+    "completion": "tabtab install",
+    "lint": "prettier --write \"bin/*\" index.js",
+    "meta-install": "meta-npm install --exclude meta",
+    "meta-link-all-global": "meta-npm link --all && npm link",
+    "meta-link-all": "meta-npm link --all",
+    "meta-link-global": "meta-npm link && npm link",
+    "meta-link": "meta-npm link",
+    "test": "jest --config jest.json --coverage",
+    "test:coverage": "jest --config jest.json --coverage",
+    "test:watch": "jest --config jest.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateodelnorte/meta.git"
+  },
+  "keywords": [
+    "git",
+    "repo",
+    "repository",
+    "repositories",
+    "meta",
+    "metarepo",
+    "metarepository",
+    "project",
+    "many"
+  ],
+  "author": "hi@iammattwalters.com",
+  "contributors": [
+    "hi@iammattwalters.com",
+    "pat@patscott.io",
+    "Alec Larson"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateodelnorte/meta/issues"
+  },
+  "homepage": "https://github.com/mateodelnorte/meta#readme",
+  "dependencies": {
+    "chalk": "3.0.0",
+    "commander": "mateodelnorte/commander.js",
+    "debug": "4.3.2",
+    "meta-git": "1.1.7",
+    "meta-init": "1.2.5",
+    "meta-loop": "1.2.5",
+    "meta-project": "2.5.0",
+    "tabtab": "3.0.2",
+    "tildify": "2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "6.0.0",
+    "jest": "26.6.3",
+    "meta-gh": "1.1.5",
+    "meta-npm": "1.2.7",
+    "meta-yarn": "1.1.5",
+    "prettier": "2.3.1",
+    "pretty-quick": "3.1.0"
+  }
+}

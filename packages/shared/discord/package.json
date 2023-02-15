@@ -1,0 +1,14 @@
+{
+  "name": "discord-packages",
+  "version": "0.0.0",
+  "description": "Discord Apps",
+  "main": "../../../build/discord/packages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Koridore",
+  "license": "MIT"
+}
