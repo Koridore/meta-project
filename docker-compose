@@ -1,35 +1,73 @@
 version: '3.7'
 
-services:
+workspaces:
+
+  discord:
+    image: discord
+    build:
+      context: workspaces/discord
+    ports:
+    - 1234:1234
+    env_file: workspaces/discord/.env
+
+  github:
+    image: github
+    build:
+      context: workspaces/github
+    ports:
+    - 1234:1234
+    env_file: workspaces/github/.env
+
+packages:
+
+  package1:
+    image: package1
+    build:
+      context: packages/package1
+    ports:
+    - 1234:1234
+    env_file: packages/package1/.env
+
+  package2:
+    image: package2
+    build:
+      context: packages/package2
+    ports:
+    - 1234:1234
+    env_file: packages/package2/.env
+
+apps:
 
   app1:
     image: app1
     build:
-      context: projects/app1
+      context: apps/app1
     ports:
     - 1234:1234
-    env_file: projects/app1/.env
+    env_file: apps/app1/.env
 
   app2:
     image: app2
     build:
-      context: projects/app2
+      context: apps/app2
     ports:
     - 1234:1234
-    env_file: projects/app2/.env
+    env_file: apps/app2/.env
+
+services:
 
   service1:
     image: service1
     build:
-      context: projects/service1
+      context: services/service1
     ports:
     - 1236:1234
-    env_file: projects/service1/.env
+    env_file: services/service1/.env
 
   service2:
     image: service2
     build:
-      context: src/service2
+      context: services/service2
     ports:
     - 1237:1234
-    env_file: src/service2/.env
+    env_file: services/service2/.env

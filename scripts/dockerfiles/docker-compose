@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+
+  app1:
+    image: app1
+    build:
+      context: projects/app1
+    ports:
+    - 1234:1234
+    env_file: projects/app1/.env
+
+  app2:
+    image: app2
+    build:
+      context: projects/app2
+    ports:
+    - 1234:1234
+    env_file: projects/app2/.env
+
+  service1:
+    image: service1
+    build:
+      context: projects/service1
+    ports:
+    - 1236:1234
+    env_file: projects/service1/.env
+
+  service2:
+    image: service2
+    build:
+      context: src/service2
+    ports:
+    - 1237:1234
+    env_file: src/service2/.env
