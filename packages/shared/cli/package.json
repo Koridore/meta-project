@@ -2,7 +2,12 @@
   "name": "@lentix/cli",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": ",../../../../build/packages/shared/cli/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "commit": "git-cz",
@@ -13,5 +18,19 @@
   },
   "keywords": [],
   "author": "Lentix",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
+  }
 }

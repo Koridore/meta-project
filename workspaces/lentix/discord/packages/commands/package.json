@@ -1,0 +1,15 @@
+{
+  "name": "@lentix/discord-commands",
+  "version": "0.0.0",
+  "description": "Discord Apps",
+  "main": "../../../build/discord/packages/commands/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "commands"
+  ],
+  "author": "Koridore",
+  "license": "MIT"
+}

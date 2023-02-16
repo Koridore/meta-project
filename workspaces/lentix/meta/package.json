@@ -1,13 +1,14 @@
 {
-  "name": "@lentix/core",
+  "name": "@lentix/meta-workspace",
   "version": "0.0.0",
-  "description": "Core Files",
+  "description": "Meta Workspace",
   "private": true,
-  "main": "../../../../build/packages/shared/core/index.js",
+  "main": "../../../../build/lentix/workspaces/meta/index.js",
   "files": [
     "*.md",
     "LICENSE",
-    "src"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "start": "tsc --watch",
@@ -21,18 +22,23 @@
   "keywords": [],
   "author": "Lentix",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  },
   "dependencies": {},
   "prettier": {
-    "printWidth": 100,
+    "endOfLine": "lf",
+    "printWidth": 80,
     "semi": false,
-    "singleQuote": true,
-    "trailingComma": "all"
+    "tabWidth": 2,
+    "trailingComma": "es5"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pnpm lint",
-      "pre-push": "pnpm test"
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "name": "@lentix/fonts",
   "version": "0.0.0",
-  "description": "",
+  "description": "Fonts",
   "private": true,
-  "main": "index.js",
+  "main": "../../../../build/packages/shared/esconfigs/index.js",
   "files": [
     "*.md",
     "LICENSE",
@@ -21,12 +21,6 @@
   "keywords": [],
   "author": "Lentix",
   "license": "MIT",
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {},
   "dependencies": {},
   "devDependencies": {},
   "prettier": {

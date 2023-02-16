@@ -1,0 +1,15 @@
+{
+  "name": "@lentix/discord-bot_one",
+  "version": "0.0.0",
+  "description": "Discord Bot One",
+  "main": "../../../build/discord/apps/bot_one/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Koridore",
+  "license": "MIT"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@lentix/discord-workspace",
+  "version": "0.0.0",
+  "description": "Discord Workspace",
+  "private": true,
+  "main": "../../../build/lentix/workspaces/discord/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "workspace"
+  ],
+  "author": "Lentix",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "discord.js": "latest"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
+  }
+}

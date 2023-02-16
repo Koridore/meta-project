@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "TSConfigs Base Files",
   "private": true,
-  "main": "dist/index.json",
+  "main": "../../../../build/packages/shared/tsconfigs/base.json",
   "files": [
     "*.md",
     "*.json",
@@ -16,6 +16,9 @@
     "build": "pnpm run build",
     "test": "pnpm run jest"
   },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
   "devDependencies": {
     "tsconfig": "^7.0.0",
     "bases": "^0.2.1"

@@ -1,13 +1,14 @@
 {
-  "name": "discord-apps",
+  "name": "@lentix/discord-bot_two",
   "version": "0.0.0",
-  "description": "Discord Apps",
-  "main": "../../../build/discord/apps/index.js",
+  "description": "Discord Bot Two",
+  "main": "../../../build/discord/apps/bot_two/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "discord"
+    "discord",
+    "bot"
   ],
   "author": "Koridore",
   "license": "MIT"

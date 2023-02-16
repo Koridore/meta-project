@@ -1,8 +1,32 @@
 {
-  "name": "@lentix/monorepo-workspace",
+  "name": "@lentix/meta-project",
   "version": "0.0.0",
-  "description": "Monorepo Workspaces",
-  "main": "dist/index.js",
+  "description": "Meta Workspaces",
+  "private": true,
+  "main": "./build/",
+  "files": [
+    "*.md",
+    "*.yml",
+    "*.yaml",
+    "*.json",
+    "*.gitignore",
+    "*.npmignore",
+    "*.eslintignore",
+    "LICENSE",
+    "Makefile",
+    "meta",
+    "tools/*",
+    "scripts/*",
+    "packages/*",
+    "workspaces/*"
+  ],
+  "workspaces": [
+    "workspaces/apps/web/docs/*",
+    "workspaces/apps/web/*",
+    "workspaces/scripts/*",
+    "workspaces/packages/local/*",
+    "workspaces/packages/shared/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "test": "turbo run test",
@@ -25,10 +49,11 @@
     "standard-version": "^2.2.1",
     "watchd": "github:mklabs/watchd",
     "@lentix/esconfigs": "workspace:*",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.4",
-    "turbo": "latest"
+    "husky": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
   },
+  "dependencies": {},
   "bake": {
     "description": "Scaffold a basic ES6 setup",
     "scripts": {
@@ -40,14 +65,8 @@
       "postinstall": "npm ls --depth 0"
     }
   },
-  "workspaces": [
-    "workspaces/apps/web/docs/*",
-    "workspaces/apps/web/*",
-    "workspaces/scripts/*",
-    "workspaces/packages/local/*",
-    "workspaces/packages/shared/*"
-  ],
   "keywords": [
+    "meta",
     "monorepo",
     "workspace"
   ],
@@ -58,11 +77,7 @@
     "type": "git",
     "url": ""
   },
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "env-cmd": "^10.1.0",
-    "envalid": "^7.3.1"
-  },
+  "bugs": {},
   "prettier": {
     "printWidth": 100,
     "semi": false,
