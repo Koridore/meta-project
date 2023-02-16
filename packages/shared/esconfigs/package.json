@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ESConfig Base Files",
   "private": true,
-  "main": "../../../../build/packages/shared/esconfigs/index.js",
+  "main": "./index.js",
   "files": [
     "*.md",
     "LICENSE",
@@ -19,9 +19,17 @@
   "author": "Lentix",
   "license": "MIT",
   "devDependencies": {
-    "@lentix/tsconfigs": "workspace"
+	 "@lentix/core": "workspace",
+	 "@lentix/tsconfigs": "workspace",
+	 "typescript": "latest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-next": "13.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-config-turbo": "latest"
+  },
   "prettier": {
     "printWidth": 100,
     "semi": false,
@@ -33,5 +41,9 @@
       "pre-commit": "pnpm lint",
       "pre-push": "pnpm test"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
+}
 }

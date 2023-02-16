@@ -1,0 +1,581 @@
+# Vietnamese translation of GNOME Keyring.
+# Bản dịch tiếng Việt dành cho GNOME Keyring.
+# Copyright © 2015 GNOME i18n Project for Vietnamese.
+# This file is distributed under the same license as the gnome-keyring package.
+# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2004,2008,2011-2012.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2010.
+# Nguyen Vu Hung <vuhung16plus@gmail.com>, 2011.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-30 19:51+0000\n"
+"PO-Revision-Date: 2015-10-01 07:47+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:84 ../daemon/dbus/gkd-secret-change.c:120
+#: ../daemon/dbus/gkd-secret-create.c:78
+#: ../pkcs11/secret-store/gkm-secret-collection.c:324
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:753
+msgid "Unnamed"
+msgstr "Chưa đặt tên"
+
+#: ../daemon/dbus/gkd-secret-change.c:89
+#, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "Nhập mật khẩu cũ cho chùm chìa khóa “%s”"
+
+#: ../daemon/dbus/gkd-secret-change.c:93
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Enter the "
+"old password for it."
+msgstr ""
+"Một ứng dụng muốn thay đổi mật khẩu cho chùm chìa khóa “%s”. Nhập mật khẩu "
+"cũ của nó."
+
+#: ../daemon/dbus/gkd-secret-change.c:99 ../daemon/dbus/gkd-secret-change.c:135
+#: ../daemon/dbus/gkd-secret-change.c:146
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1163
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1276
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1311
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: ../daemon/dbus/gkd-secret-change.c:125
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "Hãy chọn một mật khẩu mới cho chùm chìa khóa “%s”"
+
+#: ../daemon/dbus/gkd-secret-change.c:129
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"Một ứng dụng muốn thay đổi mật khẫu cho chùm chìa khóa “%s”. Hãy chọn mật "
+"khẩu cần sử dụng với nó."
+
+#: ../daemon/dbus/gkd-secret-change.c:142 ../daemon/dbus/gkd-secret-create.c:94
+msgid "Store passwords unencrypted?"
+msgstr "Lưu mật khẩu không mã hóa không?"
+
+#: ../daemon/dbus/gkd-secret-change.c:144 ../daemon/dbus/gkd-secret-create.c:96
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"Dùng một mật khẩu trắng thì mật khẩu đã lưu sẽ không được mã hóa an toàn. "
+"Mọi người đều có thể truy cập vào tập tin của bạn."
+
+#: ../daemon/dbus/gkd-secret-change.c:152
+msgid "The original password was incorrect"
+msgstr "Bạn đã gõ sai mật khẩu gốc"
+
+#: ../daemon/dbus/gkd-secret-change.c:348
+msgid "Change Keyring Password"
+msgstr "Đổi mật khẩu chùm chìa khóa"
+
+#: ../daemon/dbus/gkd-secret-create.c:80
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"Một ứng dụng muốn tạo một chùm chìa khóa mới tên “%s”. Hãy chọn mật khẩu mà "
+"bạn muốn áp dụng cho nó."
+
+#: ../daemon/dbus/gkd-secret-create.c:84
+msgid "Choose password for new keyring"
+msgstr "Hãy chọn mật khẩu cho chùm chìa khóa mới"
+
+#: ../daemon/dbus/gkd-secret-create.c:308
+msgid "New Keyring Password"
+msgstr "Mật khẩu chùm chìa khóa mới"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "Lưu trữ Chứng nhận và khóa"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "Chùm chìa khóa GNOME: thành phần PKCS#11"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "Secret Storage Service"
+msgstr "Dịch vụ lưu trữ bảo mật"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "GNOME Keyring: Secret Service"
+msgstr "Chùm chìa khóa GNOME: dịch vụ bảo mật"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "SSH Key Agent"
+msgstr "Đại diện khóa SSH"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Chùm chìa khóa GNOME: Đại diện SSH"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:158
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: ../egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "gặp lỗi khi tạo tập tin tạm “%s”: %s\n"
+
+#: ../egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "gặp lỗi khi ghi vào “%s”: %s\n"
+
+#: ../egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "Không thể tạo “%s”: %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "xóa bỏ tập tin khóa đã hỏng (được tạo bởi %d)\n"
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "đang chờ khóa (được giữ bởi %d%s) %s…\n"
+
+# http://vi.wikipedia.org/wiki/Deadlock
+# deadlock (Khóa chết) Là trạng thái xảy ra trong môi trường đa nhiệm (Muti-Threading) khi hai hoặc nhiều tiến trình đi vào vòng lặp chờ tài nguyên mãi mãi.
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(khóa chết?)"
+
+#: ../egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "khóa “%s” chưa được tạo: %s\n"
+
+#: ../egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "chờ khóa %s…\n"
+
+#: ../egg/egg-oid.c:40
+msgid "Domain Component"
+msgstr "Thành phần tên miền"
+
+#: ../egg/egg-oid.c:42
+msgid "User ID"
+msgstr "Mã số người dùng"
+
+#: ../egg/egg-oid.c:45
+msgid "Email Address"
+msgstr "Thư điện tử"
+
+#: ../egg/egg-oid.c:53
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#: ../egg/egg-oid.c:55
+msgid "Place of Birth"
+msgstr "Nơi sinh"
+
+#: ../egg/egg-oid.c:57
+msgid "Gender"
+msgstr "Giới tính"
+
+#: ../egg/egg-oid.c:59
+msgid "Country of Citizenship"
+msgstr "Quốc gia cấp công dân"
+
+#: ../egg/egg-oid.c:61
+msgid "Country of Residence"
+msgstr "Quốc gia ở"
+
+#: ../egg/egg-oid.c:64
+msgid "Common Name"
+msgstr "Tên chung"
+
+#: ../egg/egg-oid.c:66
+msgid "Surname"
+msgstr "Họ"
+
+#: ../egg/egg-oid.c:68
+msgid "Serial Number"
+msgstr "Số thứ tự"
+
+#: ../egg/egg-oid.c:70
+msgid "Country"
+msgstr "Quốc gia"
+
+#: ../egg/egg-oid.c:72
+msgid "Locality"
+msgstr "Vùng"
+
+#: ../egg/egg-oid.c:74
+msgid "State"
+msgstr "Tỉnh"
+
+#: ../egg/egg-oid.c:76
+msgid "Street"
+msgstr "Đường"
+
+#: ../egg/egg-oid.c:78
+msgid "Organization"
+msgstr "Tổ chức"
+
+#: ../egg/egg-oid.c:80
+msgid "Organizational Unit"
+msgstr "Đơn vị tổ chức"
+
+#: ../egg/egg-oid.c:82
+msgid "Title"
+msgstr "Tước hiệu"
+
+#: ../egg/egg-oid.c:84
+msgid "Telephone Number"
+msgstr "Số điện thoại"
+
+#: ../egg/egg-oid.c:86
+msgid "Given Name"
+msgstr "Tên hay gọi"
+
+#: ../egg/egg-oid.c:88
+msgid "Initials"
+msgstr "Tên viết tắt"
+
+#: ../egg/egg-oid.c:90
+msgid "Generation Qualifier"
+msgstr "Hạn định phát sinh"
+
+#: ../egg/egg-oid.c:92
+msgid "DN Qualifier"
+msgstr "Hạn định tên miền"
+
+#: ../egg/egg-oid.c:94
+msgid "Pseudonym"
+msgstr "Biệt hiệu"
+
+#: ../egg/egg-oid.c:97
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:98
+msgid "MD2 with RSA"
+msgstr "MD2 với mã hóa RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD5 with RSA"
+msgstr "MD5 với mã hóa RSA"
+
+#: ../egg/egg-oid.c:100
+msgid "SHA1 with RSA"
+msgstr "SHA1 với mã hóa RSA"
+
+#: ../egg/egg-oid.c:102
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:103
+msgid "SHA1 with DSA"
+msgstr "SHA1 với mã hóa DSA"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:106
+msgid "Server Authentication"
+msgstr "Xác thực máy chủ"
+
+#: ../egg/egg-oid.c:107
+msgid "Client Authentication"
+msgstr "Xác thực máy khách"
+
+#: ../egg/egg-oid.c:108
+msgid "Code Signing"
+msgstr "Ký mã"
+
+#: ../egg/egg-oid.c:109
+msgid "Email Protection"
+msgstr "Bảo vệ thư"
+
+#: ../egg/egg-oid.c:110
+msgid "Time Stamping"
+msgstr "Dấu vết thời gian"
+
+#: ../egg/egg-spawn.c:272
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+"Gặp lỗi bất thường trong “select()” khi đọc dữ liệu từ một tiến trình con "
+"(%s)"
+
+#: ../egg/egg-spawn.c:319
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "Gặp lỗi bất thường trong “waitpid()” (%s)"
+
+#: ../pkcs11/gkm/gkm-certificate.c:580
+msgid "Unnamed Certificate"
+msgstr "Chứng nhận không tên"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:341
+msgid "Couldn't parse public SSH key"
+msgstr "Không thể phân tích cú pháp của khóa công SSH"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "Mật khẩu gỡ khóa cho: %s"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:590
+msgid "Unlock Login Keyring"
+msgstr "Gỡ khóa chùm chìa khóa đăng nhập"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:592
+msgid "Enter password to unlock your login keyring"
+msgstr "Nhập mật khẩu để gỡ khóa chùm chìa khóa đăng nhập"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:596
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"Bạn đang sử dụng một mật khẩu để đăng nhập vào máy tính mà không còn tương "
+"ứng với mật khẩu của chùm chìa khóa đăng nhập."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:598
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+"Chùm chìa khóa đăng nhập đã không được gỡ khóa khi bạn đăng nhập vào máy "
+"tính này."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:602
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:630
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:645
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:721
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:767
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:799
+msgid "Unlock"
+msgstr "Mở khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:616
+msgid "Unlock Keyring"
+msgstr "Mở khóa chùm chìa khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:618
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "Hãy nhập mật khẩu cho chùm chìa khóa “%s” để mở chùm chìa khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:622
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr "Một ứng dụng muốn dùng chùm chìa khóa “%s”, nhưng nó đang bị khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:628
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr "Tự động gỡ khóa chùm chìa khóa này khi nào tôi đã đăng nhập"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:639
+msgid "Unlock private key"
+msgstr "Mở khóa riêng"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:641
+msgid "Unlock certificate"
+msgstr "Mở chứng nhận"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:643
+msgid "Unlock public key"
+msgstr "Mở khóa công khai"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:654
+msgid "Enter password to unlock the private key"
+msgstr "Nhập mật khẩu để mở khóa riêng"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:656
+msgid "Enter password to unlock the certificate"
+msgstr "Nhập mật khẩu để mở chứng nhận"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:658
+msgid "Enter password to unlock the public key"
+msgstr "Nhập mật khẩu để mở khóa công khai"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:660
+msgid "Enter password to unlock"
+msgstr "Nhập mật khẩu để gỡ khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:670
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr "Tự động gỡ khóa khóa này khi nào tôi đã đăng nhập"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:672
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr "Tự động gỡ khóa chứng nhận này khi nào tôi đã đăng nhập"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:674
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:796
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1160
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1309
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "Tự động mở khóa khi tôi đăng nhập"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:685
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr "Ứng dụng muốn dùng khóa riêng “%s”, nhưng nó đang bị khóa"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:688
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr "Ứng dụng muốn dùng chứng nhận “%s”, nhưng nó đang bị khóa"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:691
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr "Ứng dụng muốn dùng khóa công khai “%s”, nhưng nó đang bị khóa"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:694
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "Ứng dụng muốn dùng “%s”, nhưng nó đang bị khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:765
+msgid "The unlock password was incorrect"
+msgstr "Bạn đã gõ sai mật khẩu gỡ khóa"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:786
+msgid "Unlock certificate/key storage"
+msgstr "Mở khóa lưu trữ chứng nhận/khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Enter password to unlock the certificate/key storage"
+msgstr "Nhập mật khẩu để mở khóa kho lưu chứng nhận/khóa"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:790
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"Một ứng dụng muốn dùng kho lưu chứng nhận/khóa “%s”, nhưng nó vẫn đang bị "
+"khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1151
+msgid "New Password Required"
+msgstr "Yêu cầu mật khẩu mới"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1152
+msgid "New password required for secure storage"
+msgstr "Yêu cầu mật khẩu mới để lưu trữ bảo mật"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1154
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr "Cần có mật khẩu để chuẩn bị “%s” để lưu trữ chứng nhận hay khóa"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1269
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1300
+msgid "Change Password"
+msgstr "Đổi mật khẩu"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1270
+msgid "Original password for secure storage"
+msgstr "Mật khẩu gốc để lưu trữ bảo mật"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1272
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr "Cần mật khẩu gốc để đổi mật khẩu cho “%s”"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1301
+msgid "Change password for secure storage"
+msgstr "Thay đổi mật khẩu mới để lưu trữ bảo mật"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1303
+#, c-format
+msgid "Type a new password for '%s'"
+msgstr "Nhập mật khẩu mới cho “%s”"
+
+#: ../tool/gkr-tool.c:100
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "cách dùng: gnome-keyring lệnh [các tùy chọn]\n"
+
+#: ../tool/gkr-tool.c:102
+msgid "commands: "
+msgstr "lệnh: "
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:106
+msgid "          "
+msgstr "      "
+
+#~ msgid "GPG Password Agent"
+#~ msgstr "Agent cho mật khẩu GPG"
+
+#~ msgid "GNOME Keyring: GPG Agent"
+#~ msgstr "Chùm chìa khóa GNOME: Đại diện GPG"
+
+#~ msgid "Unknown"
+#~ msgstr "Không biết"
+
+#~ msgid "Enter Passphrase"
+#~ msgstr "Nhập mật mã"
+
+#~ msgid "Automatically unlock this key, whenever I'm logged in"
+#~ msgstr "Tự động gỡ khóa khóa này khi nào tôi đã đăng nhập"
+
+#~ msgid "PGP Key: %s"
+#~ msgstr "Khóa PGP: %s"
+
+#~ msgid "Forget this password if idle for"
+#~ msgstr "Quên mật khẩu này nếu không dùng trong"
+
+#~ msgid "Forget this password after"
+#~ msgstr "Quên mật khẩu sau"
+
+#~ msgid "Forget this password when I log out"
+#~ msgstr "Quên mật khẩu sau khi đăng xuất"
+
+#~ msgid "Error loading PKCS#11 module: %s"
+#~ msgstr "Lỗi nạp môđun PKCS#11: %s"
+
+#~ msgid "Invalid PKCS#11 module: %s"
+#~ msgstr "Môđun PKCS#11 không hợp lệ: %s"
+
+#~ msgid "Couldn't setup PKCS#11 module: %s"
+#~ msgstr "Không thể nạp môđun PKCS#11: %s"
+
+#~ msgid "Couldn't initialize PKCS#11 module: %s"
+#~ msgstr "Không thể khởi động môđun PKCS#11: %s"
+
+#~ msgid "Couldn't initialize registered PKCS#11 modules: %s"
+#~ msgstr "Không thể khởi động môđun PKCS#11 đã đăng ký: %s"

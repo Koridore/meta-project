@@ -1,0 +1,1499 @@
+[
+    {
+        "word": "finance",
+        "taboo": ["finance", "investment", "cash", "fund", "money", "interest"]
+    },
+    {
+        "word": "ladder",
+        "taboo": ["ladder", "rungs", "climb", "roof", "job", "snakes"]
+    },
+    {
+        "word": "scrabble",
+        "taboo": ["scrabble", "word", "game", "create", "english", "points"]
+    },
+    {
+        "word": "cricket",
+        "taboo": ["cricket", "bat", "ball", "wicket", "field", "umpire"]
+    },
+    {
+        "word": "eddie murphy",
+        "taboo": [
+            "eddie murphy",
+            "donkey",
+            "actor",
+            "comedian",
+            "voice",
+            "funny"
+        ]
+    },
+    {
+        "word": "giraffe",
+        "taboo": ["giraffe", "long", "big", "neck", "africa", "yellow"]
+    },
+    {
+        "word": "tattoo",
+        "taboo": ["tattoo", "skin", "permanent", "black", "engrave", "painful"]
+    },
+    {
+        "word": "child",
+        "taboo": ["child", "parent", "kid", "small", "baby", "basement"]
+    },
+    {
+        "word": "value",
+        "taboo": ["value", "worth", "money", "cash", "price", "discount"]
+    },
+    {
+        "word": "india",
+        "taboo": ["india", "people", "hindi", "country", "population", "asia"]
+    },
+    {
+        "word": "bicycle",
+        "taboo": ["bicycle", "two", "wheel", "handle", "bell", "seat"]
+    },
+    {
+        "word": "manage",
+        "taboo": ["manage", "industry", "owner", "boss", "office", "factory"]
+    },
+    {
+        "word": "millionaire",
+        "taboo": ["millionaire", "bezos", "money", "rich", "filthy", "cash"]
+    },
+    {
+        "word": "tantrum",
+        "taboo": ["tantrum", "cry", "fit", "scream", "sulk", "child"]
+    },
+    {
+        "word": "jewels",
+        "taboo": ["jewels", "rubies", "diamond", "topaz", "necklace", "chain"]
+    },
+    {
+        "word": "pug",
+        "taboo": [
+            "pug",
+            "curly tail",
+            "wrinkly face",
+            "blonde",
+            "black",
+            "small"
+        ]
+    },
+    {
+        "word": "kidney",
+        "taboo": ["kidney", "urine", "waste", "excretory", "nephrons", "filter"]
+    },
+    {
+        "word": "golf",
+        "taboo": ["golf", "eagle", "club", "green", "cart", "birdie"]
+    },
+    {
+        "word": "gelato",
+        "taboo": [
+            "gelato",
+            "yummy",
+            "fat free",
+            "ice cream",
+            "flavor",
+            "toppings"
+        ]
+    },
+    {
+        "word": "frozen yogurt",
+        "taboo": [
+            "frozen yogurt",
+            "yummy",
+            "tasty",
+            "toppings",
+            "flavors",
+            "cups"
+        ]
+    },
+    {
+        "word": "credit card",
+        "taboo": ["credit card", "wallet", "pay", "cash", "carry", "purchase"]
+    },
+    {
+        "word": "apple juice",
+        "taboo": ["apple juice", "healthy", "fruit", "drink", "sweet", "most"]
+    },
+    {
+        "word": "vitamin c",
+        "taboo": [
+            "vitamin c",
+            "tablets",
+            "orange",
+            "water soluble",
+            "black currant",
+            "vitamin"
+        ]
+    },
+    {
+        "word": "neymar",
+        "taboo": ["neymar", "brazil", "soccer", "santos", "brazilian", "young"]
+    },
+    {
+        "word": "periodic table",
+        "taboo": [
+            "periodic table",
+            "elements",
+            "chemistry",
+            "metals",
+            "science",
+            "compounds"
+        ]
+    },
+    {
+        "word": "bob marley",
+        "taboo": [
+            "bob marley",
+            "singer",
+            "dead",
+            "name of song",
+            "ziggy",
+            "jamaica"
+        ]
+    },
+    {
+        "word": "youtube",
+        "taboo": ["youtube", "videos", "music", "google", "songs", "internet"]
+    },
+    {
+        "word": "uae",
+        "taboo": ["uae", "country", "dubai", "abu dhabi", "wealth", "oil"]
+    },
+    {
+        "word": "dubstep",
+        "taboo": ["dubstep", "skrillex", "womp", "robot", "smiggle", "music"]
+    },
+    {
+        "word": "gift wrap",
+        "taboo": ["gift wrap", "presents", "paper", "decorated", "give", "see"]
+    },
+    {
+        "word": "laundry basket",
+        "taboo": [
+            "laundry basket",
+            "clothes",
+            "detergent",
+            "washing machine",
+            "dryer",
+            "dirty"
+        ]
+    },
+    {
+        "word": "Stone Henge",
+        "taboo": [
+            "Stone Henge",
+            "Rocks",
+            "Circle",
+            "England",
+            "Boulders",
+            "Ancient"
+        ]
+    },
+    {
+        "word": "Golden Retriever",
+        "taboo": [
+            "Golden Retriever",
+            "Dog",
+            "Loyal",
+            "Yellow",
+            "Breed",
+            "Puppies"
+        ]
+    },
+    {
+        "word": "Color Wheel",
+        "taboo": ["Color Wheel", "Universe", "Light", "Card", "Colors", "Law"]
+    },
+    {
+        "word": "Sun",
+        "taboo": ["Sun", "Heat", "Distance", "Star", "Source", "Light"]
+    },
+    {
+        "word": "Coca-Cola",
+        "taboo": [
+            "Coca-Cola",
+            "Company",
+            "Bottle",
+            "Red",
+            "Soft Drink",
+            "Pepsi"
+        ]
+    },
+    {
+        "word": "Flintstones",
+        "taboo": ["Flintstones", "Cartoon", "Fred", "Barney", "Wilma", "Old"]
+    },
+    {
+        "word": "Bosnia",
+        "taboo": ["Bosnia", "Balkans", "War", "Sarajevo", "Country", "River"]
+    },
+    {
+        "word": "Hashtag",
+        "taboo": ["Hashtag", "Waffle", "Tag", "Twitter", "Facebook", "Trend"]
+    },
+    {
+        "word": "Sudoku",
+        "taboo": ["Sudoku", "Numbers", "Game", "Add", "Puzzle", "Boxes"]
+    },
+    {
+        "word": "High Five",
+        "taboo": [
+            "High Five",
+            "Hands",
+            "Gesture",
+            "Palm",
+            "Celebrate",
+            "Friends"
+        ]
+    },
+    {
+        "word": "Fire Hydrant",
+        "taboo": ["Fire Hydrant", "Red", "Fire", "Water", "Parking", "Street"]
+    },
+    {
+        "word": "Rugby League",
+        "taboo": ["Rugby League", "Footy", "Ball", "Tackle", "Team", "Score"]
+    },
+    {
+        "word": "Butter Cup",
+        "taboo": [
+            "Butter Cup",
+            "Green",
+            "Blossom",
+            "Power Puff",
+            "Cartoon",
+            "Bubbles"
+        ]
+    },
+    {
+        "word": "Mentos",
+        "taboo": ["Mentos", "Teeth", "Gum", "Mint", "Chew", "Breath"]
+    },
+    {
+        "word": "High Five",
+        "taboo": [
+            "High Five",
+            "Hands",
+            "Gesture",
+            "Palm",
+            "Celebrate",
+            "Friends"
+        ]
+    },
+    {
+        "word": "Fire Hydrant",
+        "taboo": ["Fire Hydrant", "Red", "Fire", "Water", "Parking", "Street"]
+    },
+    {
+        "word": "Rugby League",
+        "taboo": ["Rugby League", "Footy", "Ball", "Tackle", "Team", "Score"]
+    },
+    {
+        "word": "Butter Cup",
+        "taboo": [
+            "Butter Cup",
+            "Green",
+            "Blossom",
+            "Power Puff",
+            "Cartoon",
+            "Bubbles"
+        ]
+    },
+    {
+        "word": "Mentos",
+        "taboo": ["Mentos", "Teeth", "Gum", "Mint", "Chew", "Breath"]
+    },
+    {
+        "word": "Dresser",
+        "taboo": [
+            "Dresser",
+            "Drawer",
+            "Mirror",
+            "Clothes",
+            "Underwear",
+            "Handles"
+        ]
+    },
+    {
+        "word": "Kindle",
+        "taboo": ["Kindle", "Amazon", "Reader", "Book", "E-Ink", "Burn"]
+    },
+    {
+        "word": "Catfish",
+        "taboo": [
+            "Catfish",
+            "Meow",
+            "Kitty",
+            "Noodeling",
+            "Bush Lines",
+            "Livers"
+        ]
+    },
+    {
+        "word": "Bone",
+        "taboo": ["Bone", "Break", "Cast", "Boot", "Heal", "Body"]
+    },
+    {
+        "word": "Yoyo",
+        "taboo": ["Yoyo", "Feet", "Poop", "China", "Pee", "Liver"]
+    },
+    {
+        "word": "Ear",
+        "taboo": ["Ear", "Wax", "Hear", "Head", "Deaf", "Pointy"]
+    },
+    {
+        "word": "Bridge",
+        "taboo": ["Bridge", "Card Game", "Water", "Connects", "River", "Cross"]
+    },
+    {
+        "word": "Police",
+        "taboo": ["Police", "Jail", "Gun", "Street", "Good Guy", "Bad"]
+    },
+    {
+        "word": "Mario",
+        "taboo": ["Mario", "Video Game", "Red", "Plumber", "Jump", "Italian"]
+    },
+    {
+        "word": "Pug",
+        "taboo": ["Pug", "Dog", "Face", "Breed", "Small", "Cute"]
+    },
+    {
+        "word": "River",
+        "taboo": ["River", "Water", "Lake", "Stream", "Mississippi", "Runs"]
+    },
+    {
+        "word": "Peach",
+        "taboo": ["Peach", "Fruit", "Fuzzy", "Georgia", "Pitt", "Sweet"]
+    },
+    {
+        "word": "Shanghai",
+        "taboo": ["Shanghai", "China", "Beijing", "Expo", "Hiong Kong", "Asia"]
+    },
+    {
+        "word": "Automobiles",
+        "taboo": ["Automobiles", "Cars", "Trucks", "Vans", "Suvs", "Motorcycle"]
+    },
+    {
+        "word": "Tofu",
+        "taboo": [
+            "Tofu",
+            "Soy Beans",
+            "Fermented",
+            "Bean Curd",
+            "Bland",
+            "Asian"
+        ]
+    },
+    {
+        "word": "Koala",
+        "taboo": ["Koala", "Gray", "Pouch", "Tree", "Small", "Anamal"]
+    },
+    {
+        "word": "Nappy",
+        "taboo": ["Nappy", "Baby", "Bottom", "Poo", "Smelly", "Wee"]
+    },
+    {
+        "word": "Surfer",
+        "taboo": ["Surfer", "Ocean", "Waves", "Board", "Beach", "Dude"]
+    },
+    {
+        "word": "Ink",
+        "taboo": ["Ink", "Printer", "Pen", "Blot", "Black", "Invisible"]
+    },
+    {
+        "word": "Werewolf",
+        "taboo": [
+            "Werewolf",
+            "Vampire",
+            "Twilight",
+            "Full Moon",
+            "Silver Bullet",
+            "Dog"
+        ]
+    },
+    {
+        "word": "Month",
+        "taboo": ["Month", "May", "October", "Sebtember", "August", "November"]
+    },
+    {
+        "word": "Instrument",
+        "taboo": ["Instrument", "Guitar", "Drums", "Piano", "Violin", "Flute"]
+    },
+    {
+        "word": "Extra",
+        "taboo": ["Extra", "Plus", "Dring", "Juice", "Special", "."]
+    },
+    {
+        "word": "Stocking",
+        "taboo": ["Stocking", "Sock", "Stuffers", "Christmas", "Hangs", "Candy"]
+    },
+    {
+        "word": "Goods",
+        "taboo": ["Goods", "Product", "Truck", "Items", "Sales", "Purchase"]
+    },
+    {
+        "word": "Wild",
+        "taboo": ["Wild", "Lion", "Monster", "Zoo", "King", "Life"]
+    },
+    {
+        "word": "Hulk",
+        "taboo": ["Hulk", "Green", "Dr. Banner", "Angry", "Gamma Ray", "Purple"]
+    },
+    {
+        "word": "Person",
+        "taboo": ["Person", "Feet", "Walk", "Human", "Usa", "You"]
+    },
+    {
+        "word": "Vienna",
+        "taboo": ["Vienna", "Austria", "City", "Capital", "German", "Belvedere"]
+    },
+    {
+        "word": "Mcdonalds",
+        "taboo": ["Mcdonalds", "Food", "Restaurant", "Waiter", "Burger", "Fish"]
+    },
+    {
+        "word": "Abracadabra",
+        "taboo": [
+            "Abracadabra",
+            "Magic",
+            "Spell",
+            "Socerer",
+            "Harry Potter",
+            "Magician"
+        ]
+    },
+    {
+        "word": "Angels",
+        "taboo": ["Angels", "Wings", "Heaven", "Devil", "Light", "God"]
+    },
+    {
+        "word": "Demigod",
+        "taboo": ["Demigod", "Human", "Hercules", "Half", "Son", "Mortal"]
+    },
+    {
+        "word": "Criminal",
+        "taboo": ["Criminal", "Killar", "Kill", "Prison", "Jail", "Court"]
+    },
+    {
+        "word": "Computer",
+        "taboo": ["Computer", "Pc", "Mankind", "Screen", "Site", "Www"]
+    },
+    {
+        "word": "Aussie",
+        "taboo": ["Aussie", "Money", "Hip", "Cruel", "Cricket", "Duck"]
+    },
+    {
+        "word": "Earplugs",
+        "taboo": ["Earplugs", "Noise", "Block", "Sound", "Cover", "Decibels"]
+    },
+    {
+        "word": "Chrysler",
+        "taboo": [
+            "Chrysler",
+            "Car",
+            "Automobile",
+            "Brand",
+            "Daimler",
+            "Sebring"
+        ]
+    },
+    {
+        "word": "Money",
+        "taboo": ["Money", "Buy", "Cash", "Bank", "Loot", "Salary"]
+    },
+    {
+        "word": "Fiber",
+        "taboo": ["Fiber", "Carbs", "Protein", "Nutrient", "Grain", "Wheat"]
+    },
+    {
+        "word": "Networks",
+        "taboo": ["Networks", "Computer", "Star", "Hub", "Wifi", "Lan"]
+    },
+    {
+        "word": "Alabama",
+        "taboo": [
+            "Alabama",
+            "Southern",
+            "Yellowhammer",
+            "Mississippi",
+            "Montgomery",
+            "Georgia"
+        ]
+    },
+    {
+        "word": "Road",
+        "taboo": ["Road", "Drive", "Street", "Vechiles", "Tarmac", "Grey"]
+    },
+    {
+        "word": "Skateboard",
+        "taboo": [
+            "Skateboard",
+            "Blades",
+            "Roller Blade",
+            "360",
+            "Doughnut",
+            "Simpsons"
+        ]
+    },
+    {
+        "word": "Mammals",
+        "taboo": ["Mammals", "Fur", "Bear", "Mother", "Animal", "Milk"]
+    },
+    {
+        "word": "Typo",
+        "taboo": ["Typo", "Keyboard", "Button", "Computer", "Fingers", "Clumsy"]
+    },
+    {
+        "word": "Yay",
+        "taboo": ["Yay", "Applouse", "Happy", "Clap", "Cheer", "Excitement"]
+    },
+    {
+        "word": "Crime",
+        "taboo": ["Crime", "Death", "Injury", "Loss", "Burglary", "Robbery"]
+    },
+    {
+        "word": "Dog",
+        "taboo": ["Dog", "Best", "Friend", "Animal", "World", "Bodyguard"]
+    },
+    {
+        "word": "Gecko",
+        "taboo": ["Gecko", "Geico", "Animal", "Green", "Lizard", "Tongue"]
+    },
+    {
+        "word": "Minister",
+        "taboo": ["Minister", "Governer", "Prime", "Cheif", "Finance", "Army"]
+    },
+    {
+        "word": "Wrestling",
+        "taboo": [
+            "Wrestling",
+            "Fake",
+            "Professional",
+            "Scripted",
+            "Sport",
+            "Grappling"
+        ]
+    },
+    {
+        "word": "Cloak",
+        "taboo": ["Cloak", "Cape", "Shawl", "Invisibility", "Cold", "Costume"]
+    },
+    {
+        "word": "Girlfriend",
+        "taboo": [
+            "Girlfriend",
+            "Boyfriend",
+            "Go Out With",
+            "Date",
+            "Wife",
+            "Girl"
+        ]
+    },
+    {
+        "word": "Metals",
+        "taboo": ["Metals", "Gold", "Silver", "Iron", "Zinc", "Bronze"]
+    },
+    {
+        "word": "Paris",
+        "taboo": [
+            "Paris",
+            "France",
+            "Europe",
+            "Eiffel Tower",
+            "French",
+            "Moulin Rouge"
+        ]
+    },
+    {
+        "word": "Beach",
+        "taboo": ["Beach", "Ball", "Sand", "Ocean", "Bum", "Sun"]
+    },
+    {
+        "word": "Life",
+        "taboo": [
+            "Life",
+            "Great",
+            "Fun",
+            "Unbelievable",
+            "Wow",
+            "4 Letter Word"
+        ]
+    },
+    {
+        "word": "D",
+        "taboo": ["D", "A", "Letter", "Alphabet", "C", "4Th"]
+    },
+    {
+        "word": "Pencil",
+        "taboo": ["Pencil", "Ink", "Colourful", "Sharp", "Draw", "Print"]
+    },
+    {
+        "word": "Mannequin",
+        "taboo": ["Mannequin", "Doll", "Puppet", "Display", "Wood", "Cloth"]
+    },
+    {
+        "word": "Curse",
+        "taboo": ["Curse", "Witch", "Mummy", "Release", "Bad Luck", "Clarity"]
+    },
+    {
+        "word": "Mother",
+        "taboo": ["Mother", "Mom", "Mommy", "Mummy", "Mum", "Caretaker"]
+    },
+    {
+        "word": "Blend",
+        "taboo": ["Blend", "Merge", "Combine", "Unify", "Fuse", "Mingle"]
+    },
+    {
+        "word": "Fabric",
+        "taboo": ["Fabric", "Cloth", "Rug", "Cotton", "Nylon", "Rayon"]
+    },
+    {
+        "word": "Turnover",
+        "taboo": ["Turnover", "Company", "Money", "Financial", "Profit", "Year"]
+    },
+    {
+        "word": "Cooler",
+        "taboo": ["Cooler", "Heat", "Fan", "Beer", "Beverage", "Sun"]
+    },
+    {
+        "word": "Cyclone",
+        "taboo": [
+            "Cyclone",
+            "Hurricane",
+            "Volcano",
+            "Wind",
+            "Disaster",
+            "Danger"
+        ]
+    },
+    {
+        "word": "Calendar",
+        "taboo": ["Calendar", "Month", "Week", "Day", "Years", "Numbers"]
+    },
+    {
+        "word": "Intensity",
+        "taboo": [
+            "Intensity",
+            "Extreme",
+            "Zeal",
+            "Energy",
+            "Norwalk",
+            "Astrachan"
+        ]
+    },
+    {
+        "word": "Ponytail",
+        "taboo": ["Ponytail", "Hair Tye", "Hair", "Pony", "Style", "Bald"]
+    },
+    {
+        "word": "Current",
+        "taboo": [
+            "Current",
+            "Loop",
+            "Circuit",
+            "Resistance",
+            "Voltage",
+            "Transmit"
+        ]
+    },
+    {
+        "word": "Cinema",
+        "taboo": ["Cinema", "Screen", "Movie", "Film", "Act", "Director"]
+    },
+    {
+        "word": "Printer",
+        "taboo": ["Printer", "Machine", "Prints", "Books", "Computer", "Paper"]
+    },
+    {
+        "word": "Power",
+        "taboo": ["Power", "Speed", "Strength", "Electricity", "Fuel", "Coal"]
+    },
+    {
+        "word": "Has",
+        "taboo": ["Has", "Orcs", "And", "Trolls", "And", "Taurens"]
+    },
+    {
+        "word": "Ds",
+        "taboo": [
+            "Ds",
+            "Pokemon",
+            "Portable",
+            "Stylus",
+            "Mario",
+            "Touch Screen"
+        ]
+    },
+    {
+        "word": "Snowmobile",
+        "taboo": ["Snowmobile", "Snow", "Vehicle", "Ski", "Track", "Cold"]
+    },
+    {
+        "word": "Impala",
+        "taboo": [
+            "Impala",
+            "Chevrolet",
+            "Gazelle",
+            "Antlers",
+            "Africa",
+            "Antelope"
+        ]
+    },
+    {
+        "word": "Jumper",
+        "taboo": ["Jumper", "Movie", "Teleport", "Move", "Movie", "Actor"]
+    },
+    {
+        "word": "Waist",
+        "taboo": ["Waist", "Middle", "Belt", "Bend", "Expanding", "Body"]
+    },
+    {
+        "word": "Cricket",
+        "taboo": [
+            "Cricket",
+            "England",
+            "Australia",
+            "Tour",
+            "Worldcup",
+            "Sport"
+        ]
+    },
+    {
+        "word": "Baka",
+        "taboo": ["Baka", "Gatas", "Hayop", "Beef", "Cow", "Chinese"]
+    },
+    {
+        "word": "Cruise",
+        "taboo": ["Cruise", "Sea", "Water", "Waves", "Food", "Sun"]
+    },
+    {
+        "word": "Ego",
+        "taboo": ["Ego", "Conceit", "Vanity", "Vain", "Narcissism", "Pride"]
+    },
+    {
+        "word": "Deliver",
+        "taboo": ["Deliver", "Give", "Supply", "Provide", "Transfer", "Hand"]
+    },
+    {
+        "word": "Cricket",
+        "taboo": [
+            "Cricket",
+            "Batter",
+            "Bowler",
+            "Shane Warne",
+            "Pitch",
+            "Umpire"
+        ]
+    },
+    {
+        "word": "Printer",
+        "taboo": ["Printer", "Machine", "Prints", "Books", "Computer", "Paper"]
+    },
+    {
+        "word": "Dum",
+        "taboo": ["Dum", "Mom", "Dad", "Sister", "Brother", "Dog"]
+    },
+    {
+        "word": "Engineering",
+        "taboo": ["Engineering", "Design", "Computers", "Math", "Hard", "Major"]
+    },
+    {
+        "word": "Sincerely",
+        "taboo": [
+            "Sincerely",
+            "Frankly",
+            "Letter",
+            "Sign-Off",
+            "Truly",
+            "Candidly"
+        ]
+    },
+    {
+        "word": "Muscle",
+        "taboo": ["Muscle", "Strength", "Biceps", "Guns", "Bone", "Protein"]
+    },
+    {
+        "word": "Fetus",
+        "taboo": [
+            "Fetus",
+            "Baby",
+            "Pre-Born",
+            "Miscarriage",
+            "Pregnancy",
+            "New"
+        ]
+    },
+    {
+        "word": "Girl",
+        "taboo": [
+            "Girl",
+            "Dress",
+            "Skirt",
+            "Kind Of Person",
+            "Bra",
+            "Lot Of Hair"
+        ]
+    },
+    {
+        "word": "Delinquent",
+        "taboo": [
+            "Delinquent",
+            "Juvenille",
+            "Jail",
+            "Young",
+            "Bad",
+            "Rebellious"
+        ]
+    },
+    {
+        "word": "Summit",
+        "taboo": ["Summit", "Eagle", "Mountain", "Cold", "Snow", "Top"]
+    },
+    {
+        "word": "Hum",
+        "taboo": ["Hum", "Sing", "Melody", "Notes", "Bored", "Tune"]
+    },
+    {
+        "word": "Jesus",
+        "taboo": ["Jesus", "Christ", "Christmas", "Baby", "Disciples", "Mary"]
+    },
+    {
+        "word": "Very",
+        "taboo": [
+            "Very",
+            "Extremely",
+            "Incredibly",
+            "Really",
+            "Greatly",
+            "Absoulutely"
+        ]
+    },
+    {
+        "word": "Dolphin",
+        "taboo": [
+            "Dolphin",
+            "Water",
+            "Bottle Nose",
+            "Ocean",
+            "Playful",
+            "Mammal"
+        ]
+    },
+    {
+        "word": "Hamburger",
+        "taboo": ["Hamburger", "Ground", "Food", "Bun", "Patty", "Beef"]
+    },
+    {
+        "word": "Baboon",
+        "taboo": ["Baboon", "Red", "Butt", "Monkey", "Silly", "Animal"]
+    },
+    {
+        "word": "Hang",
+        "taboo": ["Hang", "Dangle", "Depend", "Sling", "Suspend", "Swing"]
+    },
+    {
+        "word": "Chuckle",
+        "taboo": ["Chuckle", "Laugh", "Happy", "Ha", "He", "Lol"]
+    },
+    {
+        "word": "Ulcer",
+        "taboo": ["Ulcer", "Acid", "Hemorrhage", "Blood", "Gastric", "Stomach"]
+    },
+    {
+        "word": "Frighten",
+        "taboo": ["Frighten", "Alarm", "Panic", "Scare", "Startle", "Terrify"]
+    },
+    {
+        "word": "Vienna",
+        "taboo": ["Vienna", "Austria", "City", "Capital", "German", "Belvedere"]
+    },
+    {
+        "word": "Serene",
+        "taboo": [
+            "Serene",
+            "Calm",
+            "Peaceful",
+            "Relaxing",
+            "Heaven",
+            "Serenity"
+        ]
+    },
+    {
+        "word": "Color",
+        "taboo": ["Color", "Rainbow", "Crayon", "Red", "Blue", "Green"]
+    },
+    {
+        "word": "Trees",
+        "taboo": ["Trees", "Oak", "Cedar", "Birch", "Maple", "Pine"]
+    },
+    {
+        "word": "Prague",
+        "taboo": ["Prague", "Castle", "Czech", "Capital", "Vltava", "Orloy"]
+    },
+    {
+        "word": "Intersect",
+        "taboo": [
+            "Intersect",
+            "Cut",
+            "Crosscut",
+            "Crossover",
+            "Crisscross",
+            "Across"
+        ]
+    },
+    {
+        "word": "Later",
+        "taboo": ["Later", "After", "Next", "Coming", "Latterly", "After Wards"]
+    },
+    {
+        "word": "Kitten",
+        "taboo": ["Kitten", "Purr", "Meow", "Pet", "Dog", "Cat"]
+    },
+    {
+        "word": "Door",
+        "taboo": ["Door", "Open", "Close", "Lock", "Revolving", "Garage"]
+    },
+    {
+        "word": "Shakespeare",
+        "taboo": [
+            "Shakespeare",
+            "Hamlet",
+            "London",
+            "Globe Theatre",
+            "Stratford",
+            "William"
+        ]
+    },
+    {
+        "word": "Michigan",
+        "taboo": ["Michigan", "Cold", "US", "Place", "Detroit", "Lansing"]
+    },
+    {
+        "word": "Breeches",
+        "taboo": [
+            "Breeches",
+            "Knees",
+            "Buckle",
+            "Trousers",
+            "Lower",
+            "Clothing"
+        ]
+    },
+    {
+        "word": "Done",
+        "taboo": [
+            "Done",
+            "Completed",
+            "Accomplished",
+            "Thumps Up",
+            "Work",
+            "Given"
+        ]
+    },
+    {
+        "word": "Freebie",
+        "taboo": ["Freebie", "Get", "Free", "Gift", "Buy", "Give"]
+    },
+    {
+        "word": "Benchmark",
+        "taboo": ["Benchmark", "Test", "Quiz", "Measure", "Mark", "Gauge"]
+    },
+    {
+        "word": "Signature",
+        "taboo": ["Signature", "Sign", "Pen", "Paper", "Forum", "Post"]
+    },
+    {
+        "word": "Koala",
+        "taboo": ["Koala", "Rare", "Climb", "Animal", "Australia", "Panda"]
+    },
+    {
+        "word": "Porcupine",
+        "taboo": ["Porcupine", "Fish", "Quills", "Puffer", "Nature", "Wildlife"]
+    },
+    {
+        "word": "Month",
+        "taboo": ["Month", "Year", "Calender", "Day", "Week", "Date"]
+    },
+    {
+        "word": "Free",
+        "taboo": ["Free", "For All", "Games", "Bies", "Sample", "Torrents"]
+    },
+    {
+        "word": "Goggles",
+        "taboo": ["Goggles", "Swim", "Eye", "See", "Ski", "Wear"]
+    },
+    {
+        "word": "Mercury",
+        "taboo": ["Mercury", "Thermometer", "God", "Planet", "Queen", "Morris"]
+    },
+    {
+        "word": "Beans",
+        "taboo": ["Beans", "Toot", "Green", "Long", "Vegetable", "Refried"]
+    },
+    {
+        "word": "Perfume",
+        "taboo": [
+            "Perfume",
+            "Bottle",
+            "Expensive",
+            "Smell",
+            "Flowers",
+            "Liquid"
+        ]
+    },
+    {
+        "word": "Address",
+        "taboo": ["Address", "Bend", "Dedicate", "Devote", "Direct", "Focus"]
+    },
+    {
+        "word": "Good",
+        "taboo": ["Good", "Nice", "Girl", "Guy", "Work", "Aweosme"]
+    },
+    {
+        "word": "Cell",
+        "taboo": ["Cell", "Jail", "Bars", "Arrest", "Confinement", "Police"]
+    },
+    {
+        "word": "Colonel",
+        "taboo": ["Colonel", "KFC", "Sanders", "Army", "Chicken", "War"]
+    },
+    {
+        "word": "Food",
+        "taboo": ["Food", "Steak", "Potato", "Chicken", "Corn", "Candy"]
+    },
+    {
+        "word": "Pitcher",
+        "taboo": ["Pitcher", "Jug", "Baseball", "Water", "Throw", "Pour"]
+    },
+    {
+        "word": "Amazing",
+        "taboo": ["Amazing", "Awesome", "Cheesecake", "Pie", "Good", "Nice"]
+    },
+    {
+        "word": "Seoul",
+        "taboo": ["Seoul", "Capital", "Big", "Korea", "City", "Hangang"]
+    },
+    {
+        "word": "Casket",
+        "taboo": ["Casket", "Died", "Heaven", "Zombie", "Dracula", "Vampire"]
+    },
+    {
+        "word": "Croissant",
+        "taboo": [
+            "Croissant",
+            "Butter",
+            "Pastry",
+            "France",
+            "Almond",
+            "Breakfast"
+        ]
+    },
+    {
+        "word": "Subsequent",
+        "taboo": ["Subsequent", "Next", "Follow", "After", "Order", "Then"]
+    },
+    {
+        "word": "Solemnity",
+        "taboo": [
+            "Solemnity",
+            "Serious",
+            "Dignified",
+            "Ceremony",
+            "Formality",
+            "Composed"
+        ]
+    },
+    {
+        "word": "Carnival",
+        "taboo": ["Carnival", "People", "Street", "Drinks", "Music", "Dance"]
+    },
+    {
+        "word": "Bearing",
+        "taboo": ["Bearing", "Air", "Manner", "Style", "Address", "Ball"]
+    },
+    {
+        "word": "Car",
+        "taboo": ["Car", "Drive", "Steer", "Wheels", "Fast", "Vehicle"]
+    },
+    {
+        "word": "Boxing",
+        "taboo": ["Boxing", "Bag", "Ring", "Gloves", "Game", "Wrestling"]
+    },
+    {
+        "word": "Dare",
+        "taboo": ["Dare", "Truth", "Devil", "Do", "Brave", "Game"]
+    },
+    {
+        "word": "Pickpocket",
+        "taboo": [
+            "Pickpocket",
+            "Thief",
+            "Steal",
+            "Wallet",
+            "Artful Dodger",
+            "Police"
+        ]
+    },
+    {
+        "word": "Stapler",
+        "taboo": ["Stapler", "Clip", "Paper", "Together", "Bind", "Refill"]
+    },
+    {
+        "word": "Puzzle",
+        "taboo": ["Puzzle", "Game", "Brain", "Think", "Mystery", "Pieces"]
+    },
+    {
+        "word": "Candy",
+        "taboo": ["Candy", "Sweet", "Sugar", "Enjoyable", "Childish", "Crush"]
+    },
+    {
+        "word": "Wig",
+        "taboo": ["Wig", "Head", "Wear", "Top", "Long", "Hair"]
+    },
+    {
+        "word": "Raspberry",
+        "taboo": ["Raspberry", "Jam", "Toast", "Pie", "Fruit", "Furry"]
+    },
+    {
+        "word": "Denmark",
+        "taboo": [
+            "Denmark",
+            "Europe",
+            "Country",
+            "Copenhagen",
+            "Vikings",
+            "Carlsberg"
+        ]
+    },
+    {
+        "word": "Wild",
+        "taboo": ["Wild", "Lion", "Monster", "Adventure", "Out", "Jungle"]
+    },
+    {
+        "word": "Sheep",
+        "taboo": ["Sheep", "Shear", "Skin", "Animal", "Meat", "Wool"]
+    },
+    {
+        "word": "Chest",
+        "taboo": ["Chest", "Heart", "Beat", "Ribs", "Body Part", "Breasts"]
+    },
+    {
+        "word": "Later",
+        "taboo": ["Later", "After", "Next", "Coming", "Latterly", "After Wards"]
+    },
+    {
+        "word": "Fetus",
+        "taboo": [
+            "Fetus",
+            "Baby",
+            "Pre-Born",
+            "Miscarriage",
+            "Pregnancy",
+            "New"
+        ]
+    },
+    {
+        "word": "Crouton",
+        "taboo": ["Crouton", "Salad", "Bread", "Crunchy", "Lettuce", "Caesar"]
+    },
+    {
+        "word": "Kongo",
+        "taboo": ["Kongo", "Water", "River", "Big", "Africa", "Kingdom"]
+    },
+    {
+        "word": "PC",
+        "taboo": [
+            "PC",
+            "Hard Disk",
+            "Computer",
+            "Mother Board",
+            "Apple",
+            "Windows"
+        ]
+    },
+    {
+        "word": "Tasty",
+        "taboo": ["Tasty", "Tea", "Enjoy", "Ice-cream", "Coffee", "Cup"]
+    },
+    {
+        "word": "Element",
+        "taboo": [
+            "Element",
+            "Wind",
+            "Storm",
+            "Snowstorm",
+            "Periodic Table",
+            "Volcano Run"
+        ]
+    },
+    {
+        "word": "Turbo",
+        "taboo": ["Turbo", "Spool", "Intercooler", "Boost", "Psi", "Fast"]
+    },
+    {
+        "word": "Forum",
+        "taboo": ["Forum", "Blogs", "Web", "Internet", "Isp", "Dialup"]
+    },
+    {
+        "word": "Faucet",
+        "taboo": ["Faucet", "Water", "Sink", "Spout", "Leak", "Handle"]
+    },
+    {
+        "word": "Feign",
+        "taboo": ["Feign", "Fake", "Pretend", "Put On", "Lie", "Sham"]
+    },
+    {
+        "word": "Acid",
+        "taboo": ["Acid", "Rain", "Clean", "Hcl", "Science", "Chemistry"]
+    },
+    {
+        "word": "Pebble",
+        "taboo": ["Pebble", "Stone", "Small", "Gravel", "Skim", "Dog"]
+    },
+    {
+        "word": "Rivet",
+        "taboo": ["Rivet", "Rosie", "Metal", "Steel", "Construct", "Make"]
+    },
+    {
+        "word": "Prosperity",
+        "taboo": ["Prosperity", "Money", "God", "Healthy", "Peace", "No Lack"]
+    },
+    {
+        "word": "Glutamate",
+        "taboo": [
+            "Glutamate",
+            "Receptor",
+            "Transmitter",
+            "Brain",
+            "Amino Acid",
+            "Chemical"
+        ]
+    },
+    {
+        "word": "Graphic",
+        "taboo": [
+            "Graphic",
+            "Gaming",
+            "High Quality",
+            "Abstract",
+            "Computer Art",
+            "Gorey"
+        ]
+    },
+    {
+        "word": "Lighter",
+        "taboo": ["Lighter", "Flame", "Cigarette", "Spark", "Bic", "Smoke"]
+    },
+    {
+        "word": "Province",
+        "taboo": ["Province", "Area", "Domain", "Orbit", "Field", "Realm"]
+    },
+    {
+        "word": "Budget",
+        "taboo": ["Budget", "Finance", "Plan", "Rental", "Annual", "Monthly"]
+    },
+    {
+        "word": "Dum",
+        "taboo": ["Dum", "Mom", "Dad", "Sister", "Brother", "Dog"]
+    },
+    {
+        "word": "Actress",
+        "taboo": ["Actress", "Actor", "Film", "Tv", "Cinema", "Programe"]
+    },
+    {
+        "word": "Crisp",
+        "taboo": ["Crisp", "Crunch", "Sharp", "Fresh", "Potato", "Bite"]
+    },
+    {
+        "word": "Brittle",
+        "taboo": ["Brittle", "Candy", "Fragile", "Peanut", "Sweet", "Delicate"]
+    },
+    {
+        "word": "Cole",
+        "taboo": ["Cole", "Blonde", "Small", "Eight", "Micheal", "Christy"]
+    },
+    {
+        "word": "Dinner",
+        "taboo": ["Dinner", "Meal", "Lunch", "Date", "Bed", "Restaurant"]
+    },
+    {
+        "word": "Print",
+        "taboo": ["Print", "Printer", "Hp", "Tvs", "Computer", "Paper"]
+    },
+    {
+        "word": "Triangle",
+        "taboo": ["Triangle", "3 Sides", "Right", "Obtuse", "Pyramid", "Shape"]
+    },
+    {
+        "word": "Mancala",
+        "taboo": ["Mancala", "Game", "Marbles", "Rows", "Wood", "Play"]
+    },
+    {
+        "word": "Butter",
+        "taboo": ["Butter", "Bread", "Jam", "Amul", "Aavin", "Breakfast"]
+    },
+    {
+        "word": "Because",
+        "taboo": ["Because", "Reason", "Why", "Answer", "Excuse", "Explain"]
+    },
+    {
+        "word": "Hydrogen",
+        "taboo": [
+            "Hydrogen",
+            "Element",
+            "Periodic Table",
+            "All Compunds",
+            "Acids",
+            "Alkali"
+        ]
+    },
+    {
+        "word": "Unicycle",
+        "taboo": ["Unicycle", "Wheel", "One", "Round", "Balance", "Ride"]
+    },
+    {
+        "word": "Mary",
+        "taboo": ["Mary", "Engage", "Kiss", "Hug", "Love", "Bide"]
+    },
+    {
+        "word": "Double",
+        "taboo": ["Double", "2", "Bed", "Twine", "Bed", "Sleep"]
+    },
+    {
+        "word": "Aladdin",
+        "taboo": [
+            "Aladdin",
+            "Carpet",
+            "Jasmine",
+            "Disney",
+            "Streetrat",
+            "World"
+        ]
+    },
+    {
+        "word": "Funny",
+        "taboo": ["Funny", "Fun", "Laugh", "Smile", "Relaxed", "Joke"]
+    },
+    {
+        "word": "Pig",
+        "taboo": ["Pig", "Feet", "Nose", "Sty", "Dirty", "Pink"]
+    },
+    {
+        "word": "Gutter",
+        "taboo": ["Gutter", "Rain", "Street", "Leaves", "Water", "Clean"]
+    },
+    {
+        "word": "Safe",
+        "taboo": ["Safe", "Sure", "Danger", "Secure", "Protected", "Save"]
+    },
+    {
+        "word": "Expedite",
+        "taboo": [
+            "Expedite",
+            "Accelerate",
+            "Hasten",
+            "Hurry",
+            "Hustle",
+            "Quicken"
+        ]
+    },
+    {
+        "word": "Otter",
+        "taboo": ["Otter", "Sea", "River", "Lake", "Playful", "Box"]
+    },
+    {
+        "word": "Glance",
+        "taboo": ["Glance", "Look", "Quick", "Mirror", "Boy", "Girl"]
+    },
+    {
+        "word": "Sabotage",
+        "taboo": ["Sabotage", "Ruin", "Deconstruct", "Army", "Invade", "Troops"]
+    },
+    {
+        "word": "Mouth",
+        "taboo": ["Mouth", "Talk", "Tung", "Teeth", "Gums", "Lost"]
+    },
+    {
+        "word": "Toast",
+        "taboo": ["Toast", "Bread", "Butter", "Toaster", "Jam", "Loafs"]
+    },
+    {
+        "word": "Child",
+        "taboo": ["Child", "Kid", "Small", "Young", "Adult", "Children"]
+    },
+    {
+        "word": "Sublime",
+        "taboo": [
+            "Sublime",
+            "Bradley Nowel",
+            "Lou Dog",
+            "Santeria",
+            "Raleigh",
+            "40 Oz To Freedom"
+        ]
+    },
+    {
+        "word": "Fog",
+        "taboo": ["Fog", "Mist", "Water", "Cloud", "Snow", "Cold"]
+    },
+    {
+        "word": "Offer",
+        "taboo": ["Offer", "Customer", "Money", "Pay", "Buy", "Product"]
+    },
+    {
+        "word": "Teeth",
+        "taboo": ["Teeth", "Mouth", "Gums", "Toothbrush", "Floss", "Dentures"]
+    },
+    {
+        "word": "Taco Bell",
+        "taboo": [
+            "Taco Bell",
+            "Burito",
+            "Taco",
+            "Chalupa",
+            "Quesidilla",
+            "Supreme"
+        ]
+    },
+    {
+        "word": "World Cup",
+        "taboo": [
+            "World Cup",
+            "Soccer",
+            "Football",
+            "Tournament",
+            "Country",
+            "Goal"
+        ]
+    },
+    {
+        "word": "Kung Fu Panda",
+        "taboo": [
+            "Kung Fu Panda",
+            "Cartoon",
+            "Jack Black",
+            "China",
+            "Asian",
+            "Movie"
+        ]
+    },
+    {
+        "word": "Pen Knife",
+        "taboo": ["Pen Knife", "Pocket", "Sharp", "Cut", "Small", "Fold"]
+    },
+    {
+        "word": "Muggle",
+        "taboo": [
+            "Muggle",
+            "Harry Potter",
+            "Dursley",
+            "Magic",
+            "Witch",
+            "Wizard"
+        ]
+    },
+    {
+        "word": "shirt",
+        "taboo": ["button", "tie", "formal", "clothes", "casual", "fabric"]
+    }
+]

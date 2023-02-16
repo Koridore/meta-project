@@ -1,0 +1,92 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  DEPENDENCIES: dbus-x11 gcc gnome-common gtk-doc make openssh python redhat-rpm-config lcov libasan libubsan
+
+.build:
+  stage: build
+  image: fedora:latest
+  before_script:
+    - dnf install -y 'dnf-command(builddep)'
+    - dnf builddep -y gnome-keyring
+    - dnf install -y $DEPENDENCIES
+    - dbus-uuidgen --ensure
+    - useradd user
+
+fedora:Werror:
+  extends: .build
+  script:
+    - NOCONFIGURE=1 ./autogen.sh
+    - mkdir _build
+    - chown user _build
+    - cd _build
+    - runuser -u user -- ../configure --disable-dependency-tracking --enable-gtk-doc --enable-strict CFLAGS="-Wno-error=deprecated-declarations"
+    - runuser -u user -- make -j$(nproc) V=1
+    - eval `runuser -u user -- dbus-launch --sh-syntax`
+    - runuser -u user -- make -j$(nproc) V=1 distcheck
+
+fedora:asan:
+  extends: .build
+  tags:
+    - asan # LSAN needs CAP_SYS_PTRACE
+  script:
+    - NOCONFIGURE=1 ./autogen.sh
+    - mkdir _build
+    - chown user _build
+    - cd _build
+    - runuser -u user -- ../configure --disable-dependency-tracking CFLAGS='-fsanitize=address -g -fno-common -U_FORTIFY_SOURCE' CXXFLAGS='-fsanitize=address -g -fno-common -U_FORTIFY_SOURCE' LDFLAGS='-fsanitize=address -g -fno-common -U_FORTIFY_SOURCE' LIBS='-lasan -ldl -lpthread'
+    - runuser -u user -- make -j$(nproc) V=1
+    - eval `runuser -u user -- dbus-launch --sh-syntax`
+    - LSAN_OPTIONS=exitcode=0 runuser -u user -- make -j$(nproc) V=1 DISABLE_HARD_ERRORS=1 XFAIL_TESTS="\$(JS_TESTS) \$(PY_TESTS)" check
+  artifacts:
+    paths:
+      - _build/config.log
+      - _build/test-suite.log
+
+fedora:ubsan:
+  extends: .build
+  script:
+    - NOCONFIGURE=1 ./autogen.sh
+    - mkdir _build
+    - chown user _build
+    - cd _build
+    - runuser -u user -- ../configure --disable-dependency-tracking CFLAGS='-fsanitize=undefined -g -fno-common -U_FORTIFY_SOURCE' CXXFLAGS='-fsanitize=undefined -g -fno-common -U_FORTIFY_SOURCE' LDFLAGS='-fsanitize=undefined -g -fno-common -U_FORTIFY_SOURCE' LIBS='-lubsan -ldl -lpthread'
+    - runuser -u user -- make -j$(nproc) V=1
+    - eval `runuser -u user -- dbus-launch --sh-syntax`
+    - runuser -u user -- make -j$(nproc) V=1 check
+  artifacts:
+    paths:
+      - _build/config.log
+      - _build/test-suite.log
+
+fedora:coverage:
+  extends: .build
+  script:
+    - NOCONFIGURE=1 ./autogen.sh
+    - mkdir _build
+    - chown user _build
+    - cd _build
+    - runuser -u user -- ../configure --disable-dependency-tracking --enable-coverage
+    - runuser -u user -- make -j$(nproc) V=1
+    - eval `runuser -u user -- dbus-launch --sh-syntax`
+    - runuser -u user -- make -j$(nproc) V=1 check
+    - runuser -u user -- make coverage
+  coverage: '/^\s+lines.+:\s+([\d.]+\%)\s+/'
+  artifacts:
+    name: "gnome-keyring-${CI_JOB_NAME}-${CI_COMMIT_REF_NAME}"
+    paths:
+      - _build/build/coverage/
+
+pages:
+  stage: deploy
+  only:
+    - master
+  needs: ['fedora:coverage']
+  script:
+    - mkdir -p public
+    - mv _build/build/coverage public/coverage
+  artifacts:
+    paths:
+      - public

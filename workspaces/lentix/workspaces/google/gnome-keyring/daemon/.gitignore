@@ -1,0 +1,8 @@
+/gnome-keyring-daemon
+/gnome-keyring-daemon.service
+/org.gnome.keyring.service
+/org.freedesktop.secrets.service
+/org.freedesktop.impl.portal.Secret.service
+/gnome-keyring-pkcs11.desktop
+/gnome-keyring-secrets.desktop
+/gnome-keyring-ssh.desktop

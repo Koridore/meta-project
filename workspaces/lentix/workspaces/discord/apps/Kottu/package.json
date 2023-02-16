@@ -1,0 +1,50 @@
+{
+    "name": "kottu",
+    "version": "2.0.0",
+    "description": "The future of discord mini-games",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "start": "ts-node index.ts",
+        "prepare": "npx prisma generate && npx prisma db push",
+        "start:dev": "ts-node-dev --exit-child -r --debug ./index.ts",
+        "build": "tsc",
+        "lint": "eslint --ext .js,.ts src",
+        "check": "prettier --ignore-path .gitignore --check .",
+        "write": "prettier --ignore-path .gitignore --write .",
+        "husky": "npx husky install"
+    },
+    "author": "ARLO",
+    "license": "MIT",
+    "devDependencies": {
+        "@commitlint/cli": "^17.2.0",
+        "@commitlint/config-conventional": "^17.3.0",
+        "@types/common-tags": "^1.8.1",
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^5.47.1",
+        "@typescript-eslint/parser": "^5.47.1",
+        "eslint": "^8.30.0",
+        "husky": "^8.0.2",
+        "lint-staged": "^13.1.0",
+        "prettier": "^2.8.1",
+        "prisma": "^4.8.0",
+        "ts-node-dev": "^2.0.0",
+        "tsconfig-paths": "^4.1.1",
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "@prisma/client": "^4.8.0",
+        "async-each": "^1.0.3",
+        "cli-table3": "^0.6.3",
+        "commitlint": "^17.3.0",
+        "common-tags": "^1.8.2",
+        "discord.js": "^14.7.1",
+        "dotenv": "^16.0.3",
+        "path": "^0.12.7",
+        "winston": "^3.8.2"
+    },
+    "lint-staged": {
+        "**/*.{js,ts}": "eslint --ext .js,.ts",
+        "**/*.{js,ts,json,md}": "prettier --ignore-path .gitignore --write"
+    }
+}

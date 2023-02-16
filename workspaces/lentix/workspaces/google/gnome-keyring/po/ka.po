@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-keyring/issues\n"
+"POT-Creation-Date: 2022-05-24 10:12+0000\n"
+"PO-Revision-Date: 2022-05-25 07:42+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: daemon/dbus/gkd-secret-change.c:84 daemon/dbus/gkd-secret-change.c:120
+#: daemon/dbus/gkd-secret-create.c:78
+#: daemon/ssh-agent/gkd-ssh-agent-service.c:254
+#: pkcs11/secret-store/gkm-secret-collection.c:324
+#: pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:733
+msgid "Unnamed"
+msgstr "უსახელო"
+
+#: daemon/dbus/gkd-secret-change.c:89
+#, c-format
+msgid "Enter the old password for the “%s” keyring"
+msgstr "შეიყვანეთ ბრელოკის (%s) ძველი პაროლი"
+
+#: daemon/dbus/gkd-secret-change.c:93
+#, c-format
+msgid ""
+"An application wants to change the password for the “%s” keyring. Enter the "
+"old password for it."
+msgstr ""
+"აპლიკაციას ბრელოკის (%s) პაროლის შეცვლა უნდა. ამისთვის საჭიროა ძველი პაროლის "
+"შეყვანა."
+
+#: daemon/dbus/gkd-secret-change.c:99 daemon/dbus/gkd-secret-change.c:135
+#: daemon/dbus/gkd-secret-change.c:146 pkcs11/wrap-layer/gkm-wrap-prompt.c:1143
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1256
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1291
+msgid "Continue"
+msgstr "გაგრძელება"
+
+#: daemon/dbus/gkd-secret-change.c:125
+#, c-format
+msgid "Choose a new password for the “%s” keyring"
+msgstr "აირჩიეთ ბრელოკის (%s) ახალი პაროლი"
+
+#: daemon/dbus/gkd-secret-change.c:129
+#, c-format
+msgid ""
+"An application wants to change the password for the “%s” keyring. Choose the "
+"new password you want to use for it."
+msgstr "აპლიკაციას ბრელოკის (%s) პაროლის შეცვლა უნდა. აირჩიეთ ახალი პაროლი."
+
+#: daemon/dbus/gkd-secret-change.c:142 daemon/dbus/gkd-secret-create.c:94
+msgid "Store passwords unencrypted?"
+msgstr "პაროლები დაუშიფრავად შევინახო ?"
+
+#: daemon/dbus/gkd-secret-change.c:144 daemon/dbus/gkd-secret-create.c:96
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"ცარიელი პაროლის არჩევით თქვენი შენახული პაროლები საიმედოდ არ დაიშიფრება. "
+"ისინი ხელმისაწვდომი იქნება ყველასთვის, ვისაც თქვენს ფაილებზე წვდომა გააცნია."
+
+#: daemon/dbus/gkd-secret-change.c:152
+msgid "The original password was incorrect"
+msgstr "საწყისი პაროლი არასწორი იყო"
+
+#: daemon/dbus/gkd-secret-change.c:348
+msgid "Change Keyring Password"
+msgstr "ბრელოკის პაროლის შეცვლა"
+
+#: daemon/dbus/gkd-secret-create.c:80
+#, c-format
+msgid ""
+"An application wants to create a new keyring called “%s”. Choose the "
+"password you want to use for it."
+msgstr ""
+"აპლიკაციას სურს ახალი ბრელოკის, სახელად \"%s\" შექმნა. აირჩიეთ მისი პაროლი."
+
+#: daemon/dbus/gkd-secret-create.c:84
+msgid "Choose password for new keyring"
+msgstr "აირჩიეთ ახალი ბრელოკის პაროლი"
+
+#: daemon/dbus/gkd-secret-create.c:309
+msgid "New Keyring Password"
+msgstr "ბრელოკის ახალი პაროლი"
+
+#: daemon/gnome-keyring-pkcs11.desktop.in.in:4
+msgid "Certificate and Key Storage"
+msgstr "სერტიფიკატებისა და გასაღებების საცავი"
+
+#: daemon/gnome-keyring-pkcs11.desktop.in.in:5
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "GNOME-ის ბრელოკი: PKCS#11 კომპონენტი"
+
+#: daemon/gnome-keyring-secrets.desktop.in.in:4
+msgid "Secret Storage Service"
+msgstr "საიდუმლოებების საცავის სერვისი"
+
+#: daemon/gnome-keyring-secrets.desktop.in.in:5
+msgid "GNOME Keyring: Secret Service"
+msgstr "GNOME-ის ბრელოკი: საიდუმლო საცავი"
+
+#: daemon/gnome-keyring-ssh.desktop.in.in:4
+msgid "SSH Key Agent"
+msgstr "SSH გასაღების აგენტი"
+
+#: daemon/gnome-keyring-ssh.desktop.in.in:5
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME-ის ბრელოლი: SSH-ის აგენტი"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: daemon/login/gkd-login.c:162
+msgid "Login"
+msgstr "შესვლა"
+
+#. Get the label ready
+#: daemon/login/gkd-login-interaction.c:191
+#: pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "%s-ის განბლოკვის პაროლი"
+
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:100
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:634
+msgid "Unlock private key"
+msgstr "პირადი გასაღების განბლოკვა"
+
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:101
+msgid "Enter password to unlock the private key"
+msgstr "შეიყვანეთ პირადი გასაღების განბლოკვის პაროლი"
+
+#. TRANSLATORS: The private key is locked
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:104
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:665
+#, c-format
+msgid "An application wants access to the private key “%s”, but it is locked"
+msgstr "აპლიკაციას სურს პირად გასაღებთან (%s) წვდომა, მაგრამ ის დაბლოკილია"
+
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:111
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:650
+msgid "Automatically unlock this key whenever I’m logged in"
+msgstr "ამ გასაღების ავტომატური განბლოკვა ჩემი სისტემაში შესვლისას"
+
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:113
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:600
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:625
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:640
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:701
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:747
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:779
+msgid "Unlock"
+msgstr "განბლოკვა"
+
+#: daemon/ssh-agent/gkd-ssh-agent-interaction.c:116
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:745
+msgid "The unlock password was incorrect"
+msgstr "განბლოკვის პაროლი არასწორია"
+
+#: egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "დროებითი ფაილის (`%s') შექმნის შეცდომა: %s\n"
+
+#: egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "`%s'-ში ჩაწერის შეცდომა: %s\n"
+
+#: egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "`%s'-ის შექმნის შეცდომა: %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "ბლოკირების გაჭედილი ფაილის მოცილება (შეიქმნა %d-ის მიერ)\n"
+
+#: egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "ბლოკის მოლოდინი (%d%s) %s...\n"
+
+#: egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(სასიკვდილო ბლოკი?) "
+
+#: egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "ბლოკი `%s' არ შექმნილა: %s\n"
+
+#: egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "%s-ის ბლოკირების მოლოდინი...\n"
+
+#: egg/egg-oid.c:40
+msgid "Domain Component"
+msgstr "დომენის კომპონენტი"
+
+#: egg/egg-oid.c:42
+msgid "User ID"
+msgstr "მომხმარებლის სახელი"
+
+#: egg/egg-oid.c:45
+msgid "Email Address"
+msgstr "ელ-ფოსტის მისამართი"
+
+#: egg/egg-oid.c:53
+msgid "Date of Birth"
+msgstr "დაბადების თარიღი"
+
+#: egg/egg-oid.c:55
+msgid "Place of Birth"
+msgstr "დაბადების ადგილი"
+
+#: egg/egg-oid.c:57
+msgid "Gender"
+msgstr "სქესი"
+
+#: egg/egg-oid.c:59
+msgid "Country of Citizenship"
+msgstr "რომელი ქვეყნის მოქალაქე ბრძანდებით"
+
+#: egg/egg-oid.c:61
+msgid "Country of Residence"
+msgstr "რომელ ქვეყანაში ცხოვრობთ"
+
+#: egg/egg-oid.c:64
+msgid "Common Name"
+msgstr "სახელი"
+
+#: egg/egg-oid.c:66
+msgid "Surname"
+msgstr "გვარი"
+
+#: egg/egg-oid.c:68
+msgid "Serial Number"
+msgstr "სერიული ნომერი"
+
+#: egg/egg-oid.c:70
+msgid "Country"
+msgstr "ქვეყანა"
+
+#: egg/egg-oid.c:72
+msgid "Locality"
+msgstr "რაიონი"
+
+#: egg/egg-oid.c:74
+msgid "State"
+msgstr "State"
+
+#: egg/egg-oid.c:76
+msgid "Street"
+msgstr "ქუჩა"
+
+#: egg/egg-oid.c:78
+msgid "Organization"
+msgstr "ორგანიზაცია"
+
+#: egg/egg-oid.c:80
+msgid "Organizational Unit"
+msgstr "ორგანიზაციული ერთეული"
+
+#: egg/egg-oid.c:82
+msgid "Title"
+msgstr "სათაური"
+
+#: egg/egg-oid.c:84
+msgid "Telephone Number"
+msgstr "ტელეფონის ნომერი"
+
+#: egg/egg-oid.c:86
+msgid "Given Name"
+msgstr "სახელი"
+
+#: egg/egg-oid.c:88
+msgid "Initials"
+msgstr "ინიციალები"
+
+#: egg/egg-oid.c:90
+msgid "Generation Qualifier"
+msgstr "თაობის სანიშნი"
+
+#: egg/egg-oid.c:92
+msgid "DN Qualifier"
+msgstr "DN სანიშნი"
+
+#: egg/egg-oid.c:94
+msgid "Pseudonym"
+msgstr "ფსევდონიმი"
+
+#: egg/egg-oid.c:97
+msgid "RSA"
+msgstr "RSA"
+
+#: egg/egg-oid.c:98
+msgid "MD2 with RSA"
+msgstr "MD2 RSA-ით"
+
+#: egg/egg-oid.c:99
+msgid "MD5 with RSA"
+msgstr "MD5 RSA-ით"
+
+#: egg/egg-oid.c:100
+msgid "SHA1 with RSA"
+msgstr "SHA1 RSA-ით"
+
+#: egg/egg-oid.c:102
+msgid "DSA"
+msgstr "DSA"
+
+#: egg/egg-oid.c:103
+msgid "SHA1 with DSA"
+msgstr "SHA1 DSA-ით"
+
+#. Extended Key Usages
+#: egg/egg-oid.c:106
+msgid "Server Authentication"
+msgstr "სერვერის ავთენტიკაცია"
+
+#: egg/egg-oid.c:107
+msgid "Client Authentication"
+msgstr "კლიენტის ავთენტიკაცია"
+
+#: egg/egg-oid.c:108
+msgid "Code Signing"
+msgstr "კოდის ხელმოწერა"
+
+#: egg/egg-oid.c:109
+msgid "Email Protection"
+msgstr "ელფოსტის დაცვა"
+
+#: egg/egg-oid.c:110
+msgid "Time Stamping"
+msgstr "დროის შტამპები"
+
+#: pkcs11/gkm/gkm-certificate.c:578
+msgid "Unnamed Certificate"
+msgstr "უსახელო სერტიფიკატი"
+
+#: pkcs11/ssh-store/gkm-ssh-private-key.c:341
+msgid "Couldn’t parse public SSH key"
+msgstr "საჯარო SSH გასაღების დამუშავების შეცდომა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:590
+msgid "Unlock Login Keyring"
+msgstr "შესვლის ბრელოკის განბლოკვა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:591
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:615
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:691
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:767
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1250
+msgid "Authentication required"
+msgstr "ავთენტიფიკაცია აუცილებელია"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:594
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr "სისტემაში შესვლის პაროლი აღარ ემთხვევა ბრელოკის განბლოკვის პაროლს."
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:596
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr "შესვლის ბრელოკი არ განიბლოკა, როცა თქვენ სისტემაში შეხვედით."
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:614
+msgid "Unlock Keyring"
+msgstr "ბრელოკის განბლოკვა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:617
+#, c-format
+msgid "An application wants access to the keyring “%s”, but it is locked"
+msgstr "აპლიკაციას ბრელოკთან (%s) წვდომის მიღება სურს, მაგრამ ის დაბლოკილია"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:623
+msgid "Automatically unlock this keyring whenever I’m logged in"
+msgstr "ამ ბრელოკის ავტომატური განბლოკვა ჩემი სისტემაში შესვლისას"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:636
+msgid "Unlock certificate"
+msgstr "სერტიფიკატის განბლოკვა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:638
+msgid "Unlock public key"
+msgstr "საჯარო გასაღების განბლოკვა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:652
+msgid "Automatically unlock this certificate whenever I’m logged in"
+msgstr "ამ სერტიფიკატის ავტომატური განბლოკვა, როცა სისტემაში შესული ვარ"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:654
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:776
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1140
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1289
+msgid "Automatically unlock whenever I’m logged in"
+msgstr "ავტომატური განბლოკვა, როცა სისტემაში შესული ვარ"
+
+#. TRANSLATORS: The certificate is locked
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:668
+#, c-format
+msgid "An application wants access to the certificate “%s”, but it is locked"
+msgstr "აპლიკაციას სურს სერტიფიკატთან (%s) წვდომა, მაგრამ ის დაბლოკილია"
+
+#. TRANSLATORS: The public key is locked
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:671
+#, c-format
+msgid "An application wants access to the public key “%s”, but it is locked"
+msgstr "აპლიკაციას სურს საჯარო გასაღებთან (%s) წვდომა, მაგრამ ის დაბლოკილია"
+
+#. TRANSLATORS: The object '%s' is locked
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:674
+#, c-format
+msgid "An application wants access to “%s”, but it is locked"
+msgstr "აპლიკაციას %s-სთან წვდომის მიღება სურს, მაგრამ ის დაბლოკილია"
+
+#. Build up the prompt
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:766
+msgid "Unlock certificate/key storage"
+msgstr "სერტიფიკატის/გასაღების საცავის განბლოკვა"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:770
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage “%s”, but it is "
+"locked"
+msgstr ""
+"აპლიკაციას სურს სერტიფიკატის/გასაღებების საცავთან (%s) წვდომა, მაგრამ ის "
+"დაბლოკილია"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1131
+msgid "New Password Required"
+msgstr "საჭიროა ახალი პაროლი"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New password required"
+msgstr "საჭიროა ახალი პაროლი"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1134
+#, c-format
+msgid ""
+"In order to prepare “%s” for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"%s-ის სერტიფიკატებისა და გასაღებების საწყობად მოსამზადებლად პაროლია საჭირო"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+msgid "Change Password"
+msgstr "პაროლის შეცვლა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1252
+#, c-format
+msgid "To change the password for “%s”, the original password is required"
+msgstr "%s-ის პაროლის შესაცვლელად საჭიროა საწყისი პაროლი"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1281
+msgid "Change password"
+msgstr "პაროლის შეცვლა"
+
+#: pkcs11/wrap-layer/gkm-wrap-prompt.c:1283
+#, c-format
+msgid "Type a new password for “%s”"
+msgstr "ჩაწერეთ %s-ის ახალი პაროლი"
+
+#: tool/gkr-tool.c:100
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "გამოყენება: gnome-keyring ბრძანება [პარამეტრები]\n"
+
+#: tool/gkr-tool.c:102
+msgid "commands: "
+msgstr "ბრძანებები: "
+
+#. Translators: keep same length as translated message "commands: "
+#: tool/gkr-tool.c:106
+msgid "          "
+msgstr "          "

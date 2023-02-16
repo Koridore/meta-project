@@ -1,0 +1,77 @@
+<title>{{lang.website_commands_htmltitle}} - LenoxBot</title>
+<meta name="description" content="A list of all commands that LenoxBot offers your Discord server...">
+<script>
+    var currentPageId = "#commands";
+</script>
+<main id="commands">
+    <section class="lb-bg-white">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 my-4">
+                    <h3 class="font-weight-light">{{lang.website_commands_modules}} <button class="btn lb-btn-trans-black d-lg-none float-right" id="toggle-menu"><i class="mdi mdi-menu"></i></button></h3>
+                    <div id="list-modules" class="list-group menu">
+                        <button class="list-group-item list-group-item-action lb-btn-list lb-btn-list-focus" id="command"><i class="mdi lb-dashboard-icon mdi-folder-multiple"></i> {{lang.website_commands_all}}</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="administration"><i class="mdi lb-dashboard-icon mdi-settings"></i> Administration</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="moderation"><i class="mdi lb-dashboard-icon mdi-gavel"></i> Moderation</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="help"><i class="mdi lb-dashboard-icon mdi-help"></i> Help</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="music"><i class="mdi lb-dashboard-icon mdi-music"></i> Music</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="fun"><i class="mdi lb-dashboard-icon mdi-gamepad"></i> Fun</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="searches"><i class="mdi lb-dashboard-icon mdi-magnify"></i> Searches</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="nsfw"><i class="mdi lb-dashboard-icon mdi-alert"></i> NSFW</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="application"><i class="mdi lb-dashboard-icon mdi-file-document-box-outline"></i> Application</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="currency"><i class="mdi lb-dashboard-icon mdi-currency-usd"></i> Currency</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="utility"><i class="mdi lb-dashboard-icon mdi-lightbulb-on"></i> Utility</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="tickets"><i class="mdi lb-dashboard-icon mdi-ticket-account"></i> Tickets</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="customcommands"><i class="mdi lb-dashboard-icon mdi-console"></i> Custom commands</button>
+                        {{#if isstaff}}
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="staff"><i class="mdi lb-dashboard-icon mdi-account-alert"></i> LenoxBot Staff</button>
+                        <button class="list-group-item list-group-item-action lb-btn-list" id="botowner"><i class="mdi lb-dashboard-icon mdi-alert-outline"></i> LenoxBot Botowner</button>
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-12 pr-0 mt-4">
+                            <h3 class="font-weight-light">{{lang.website_commands_title}}</h3>
+                            <div class="form-group">
+                                <input class="form-control lb-input" id="search-input" type="text" placeholder="{{lang.website_commands_search}}">
+                            </div>
+                        </div>
+                        <div class="col-12 lb-commands pr-0 lb-mcsp">
+                            <div class="lb-mcsp">
+                                <div class="table-responsive">
+                                <table id="table" class="table table-hover mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>{{lang.website_commands_commandname}}</th>
+                                            <th>{{lang.website_commands_description}}</th>
+                                            <th>{{lang.website_commands_permissions}}</th>
+                                            <th>{{lang.website_commands_aliases}}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {{#each commands}}
+                                        <tr class="command {{category}}">
+                                            <td><b>{{usage}}</b></td>
+                                            <td>{{description}}</td>
+                                            <td>{{newuserpermissions}}</td>
+                                            <td>{{newaliases}}</td>
+                                        </tr>
+                                        {{/each}}
+                                        <tr id="notfound"  style="display: none;">
+                                            <td align="center" colspan="4">{{lang.website_commands_cmdnotfound}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- lenoxbot commands JS -->
+<script src="js/commands.js"></script>

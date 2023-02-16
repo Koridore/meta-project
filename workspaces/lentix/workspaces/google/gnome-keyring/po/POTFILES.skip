@@ -1,0 +1,6 @@
+daemon/org.freedesktop.secrets.service.in
+daemon/org.gnome.keyring.service.in
+
+# POTFILES.skip insists on finding files $builddir :S
+x86_64/
+_build/

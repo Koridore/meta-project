@@ -1,0 +1,28 @@
+{
+    "cSpell.words": [
+        "acro",
+        "acrophobia",
+        "cah",
+        "cardsagainsthumanity",
+        "commitlint",
+        "Durstenfeld",
+        "ecma",
+        "github",
+        "kottu",
+        "nintendo",
+        "prisma",
+        "taboo"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.caseSensitive": true,
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "kill.json",
+        "src/assets/*"
+    ]
+}

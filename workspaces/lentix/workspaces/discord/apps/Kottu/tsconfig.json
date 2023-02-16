@@ -1,0 +1,32 @@
+{
+    "ts-node": {
+        "require": ["tsconfig-paths/register"]
+    },
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "lib": ["ESNext"],
+        "sourceMap": false,
+        "outDir": "dist",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "baseUrl": "src",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "@struct": ["struct"],
+            "@struct/*": ["struct/*"],
+            "@commands/*": ["commands/*"]
+        },
+        "typeRoots": ["./global.d.ts", "./node_modules/@types"]
+    },
+    "include": ["src", "src/**/*.ts"],
+    "exclude": ["dist", "node_modules", "dist/**/*.ts", "dist/**/*.js"]
+}
