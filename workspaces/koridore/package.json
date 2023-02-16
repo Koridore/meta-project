@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Koridore Workspaces",
   "private": true,
-  "main": "../../../build/koridore/index.js",
+  "main": "./workspaces/*",
   "files": [
     "*.md",
     "LICENSE",
