@@ -1,0 +1,39 @@
+{
+  "name": "@lentix/fs-cmd",
+  "version": "0.0.0",
+  "description": "File System Commands",
+  "private": true,
+  "main": "./dist/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src/*"
+  ],
+  "scripts": {
+    "start": "tsc --watch",
+    "prepare": "tsc",
+    "build": "pnpm run build",
+    "prepublishOnly": "pnpm run build",
+    "coverage": "jest --coverage",
+    "lint": "tsc && prettier --list-different --write src tests",
+    "test": "pnpm run jest"
+  },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
+    }
+  }
+}

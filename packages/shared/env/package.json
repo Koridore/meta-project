@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ENV Files",
   "private": true,
-  "main": "../../../../build/packages/shared/env/index.js",
+  "main": "./dist/index.js",
   "files": [
     "*.md",
     "LICENSE",

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Presets",
   "private": true,
-  "main": "../../../../build/packages/shared/presets/index.js",
+  "main": "./dist/index.js",
   "files": [
     "*.md",
     "LICENSE",

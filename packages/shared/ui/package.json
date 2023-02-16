@@ -1,19 +1,39 @@
 {
-  "name": "ui",
+  "name": "@lentix/ui",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
-  "license": "MIT",
+  "description": "UI",
+  "private": true,
+  "main": "./dist/index.tsx",
+  "types": "./src/index.tsx",
+  
   "scripts": {
     "lint": "eslint *.ts*"
   },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
   "devDependencies": {
+    "@lentix/core": "workspace:*",
+    "@lentix/esconfigs": "workspace:*",
+    "@lentix/tsconfigs": "workspace:*",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
     "react": "^18.2.0",
-    "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {},
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
+    }
   }
 }

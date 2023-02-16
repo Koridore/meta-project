@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ESConfig Base Files",
   "private": true,
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "files": [
     "*.md",
     "LICENSE",
@@ -45,5 +45,4 @@
   "publishConfig": {
     "access": "public"
   }
-}
 }

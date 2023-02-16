@@ -1,0 +1,40 @@
+{
+  "name": "@lentix/env-extended",
+  "version": "0.0.0",
+  "description": "ENV Extension Files",
+  "private": true,
+  "main": "./dist/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "commit": "git-cz",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "env-cmd": "^10.1.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
+  }
+}

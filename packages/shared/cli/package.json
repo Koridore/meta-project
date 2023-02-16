@@ -2,7 +2,7 @@
   "name": "@lentix/cli",
   "version": "0.0.0",
   "description": "",
-  "main": ",../../../../build/packages/shared/cli/index.js",
+  "main": "./dist/index.js",
   "files": [
     "*.md",
     "LICENSE",

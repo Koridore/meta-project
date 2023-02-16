@@ -1,9 +1,9 @@
 {
   "name": "@lentix/templates",
   "version": "0.0.0",
-  "description": "Template Base Files",
+  "description": "Templates",
   "private": true,
-  "main": "../../../../build/packages/shared/templates/index.js",
+  "main": "./dist/index.js",
   "files": [
     "*.md",
     "LICENSE",

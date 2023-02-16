@@ -1,5 +1,14 @@
 {
-  "extends": "tsconfig/react-library.json",
-  "include": ["."],
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["ESNext", "ES2015"],
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "skipLibCheck": true
+  },
+  "include": ["./"],
   "exclude": ["dist", "build", "node_modules"]
 }
