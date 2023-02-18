@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "Asciinema",
+        "clsx",
         "codepaths",
         "esconfigs",
         "jestconfig",
@@ -8,6 +9,7 @@
         "lentix",
         "loglevel",
         "mklabs",
+        "nextjs",
         "npmignore",
         "poststart",
         "prestart",

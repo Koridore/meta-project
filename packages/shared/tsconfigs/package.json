@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "preinstall": "",
-    "prepare": "",
     "build": "pnpm run build",
     "test": "pnpm run jest"
   },

@@ -1,0 +1,37 @@
+{
+  "name": "@lentix/build",
+  "version": "0.0.0",
+  "description": "Build Tools",
+  "private": true,
+  "main": "./dist/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ],
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "pnpm run build",
+    "prepublishOnly": "pnpm run build",
+    "coverage": "jest --coverage",
+    "lint": "tsc && prettier --list-different --write src tests",
+    "test": "pnpm run jest"
+  },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
+  }
+}

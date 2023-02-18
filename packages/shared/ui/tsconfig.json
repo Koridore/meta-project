@@ -9,6 +9,6 @@
     "jsx": "preserve",
     "skipLibCheck": true
   },
-  "include": ["./"],
-  "exclude": ["dist", "build", "node_modules"]
+  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
+  "exclude": ["node_modules"]
 }

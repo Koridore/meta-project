@@ -1,5 +1,5 @@
 {
-  "name": "@lentix/fs",
+  "name": "@lentix/fs-extended",
   "version": "0.0.0",
   "description": "File System Extension",
   "private": true,

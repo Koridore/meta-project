@@ -1,0 +1,49 @@
+.docker:
+  image: docker
+  stage: publish_docker
+  services:
+  - docker:dind
+  variables:
+    DOCKERFILE_PATH: Dockerfile
+    DOCKER_REGISTRY: $CI_REGISTRY
+    DOCKER_REGISTRY_IMAGE: $CI_REGISTRY_IMAGE
+    DOCKER_PROJECT_NAME: $CI_PROJECT_NAME
+    DOCKER_TOKEN: $CI_BUILD_TOKEN
+    DOCKER_LATEST_BRANCH: master
+    DOCKER_LATEST_TAG: latest
+    DOCKER_TAG: $CI_COMMIT_REF_NAME
+    DOCKER_DRIVER: overlay2
+  before_script:
+    - docker login -u gitlab-ci-token -p $DOCKER_TOKEN $DOCKER_REGISTRY
+  script:
+    - |
+      img="$DOCKER_REGISTRY_IMAGE/$DOCKER_PROJECT_NAME"
+      current="$img:$DOCKER_TAG"
+      latest="$img:$DOCKER_LATEST_TAG"
+      cache=""
+      tags="-t $current"
+      file="-f $DOCKERFILE_PATH"
+      echo "Pulling $current."
+      docker pull $current && cache="$cache --cache-from $current" || true
+      echo "Pulling $latest."
+      docker pull $latest && cache="$cache --cache-from $latest" || true
+      if [ "$DOCKER_LATEST_BRANCH" == "$CI_COMMIT_REF_NAME" ]; then
+        tags="$tags -t $latest"
+      fi
+      echo "Building docker image."
+      docker build --pull $cache $tags $file .
+      echo "Pushing $current."
+      docker push $current
+      if [ "$DOCKER_LATEST_BRANCH" == "$CI_COMMIT_REF_NAME" ]; then
+        echo "Pushing $latest."
+        docker push $latest
+      else
+        echo "Skipping $latest."
+      fi
+  tags:
+    - docker
+
+.docker_build:
+  extends: .docker
+  variables:
+    DOCKERFILE_PATH: builders/$DOCKER_PROJECT_NAME.Dockerfile
