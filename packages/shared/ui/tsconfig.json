@@ -1,14 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es2015",
-    "lib": ["ESNext", "ES2015"],
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
-    "skipLibCheck": true
-  },
-  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
-  "exclude": ["node_modules"]
-}
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "UI",
+    "compilerOptions": {
+      "composite": false,
+      "declaration": true,
+      "declarationMap": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "inlineSources": false,
+      "isolatedModules": true,
+      "moduleResolution": "node",
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveWatchOutput": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "exclude": ["node_modules"]
+  }
+  

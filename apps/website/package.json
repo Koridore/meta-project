@@ -1,21 +1,33 @@
 {
-  "name": "project name",
+  "name": "@lentix/website",
   "version": "0.0.0",
   "description": "TypeScript + Mongoose + MongoDB + Express API Server",
-  "author": "",
-  "license": "ISC",
+  "private": true,
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npm run build && cross-env NODE_ENV=production node dist/server.js",
-    "dev": "cross-env NODE_ENV=development nodemon",
-    "build": "swc src -d dist --source-maps --copy-files",
+    "start": "next start && pnpm run build && cross-env NODE_ENV=production node dist/server.js",
+    "dev": "next dev && cross-env NODE_ENV=development nodemon",
+    "build": "next build && swc src -d dist --source-maps --copy-files",
     "build:tsc": "tsc && tsc-alias",
     "test": "jest --forceExit --detectOpenHandles",
-    "lint": "eslint --ignore-path .gitignore --ext .ts src/",
+    "lint": "next lint && eslint --ignore-path .gitignore --ext .ts src/",
     "lint:fix": "npm run lint -- --fix",
     "deploy:prod": "npm run build && pm2 start ecosystem.config.js --only prod",
     "deploy:dev": "pm2 start ecosystem.config.js --only dev"
   },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
   "dependencies": {
+    "@lentix/ui": "workspace:*",
+    "next": "^13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+
     "bcrypt": "^5.0.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
@@ -36,6 +48,11 @@
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@lentix/esconfigs": "workspace:*",
+    "@lentix/tsconfigs": "workspace:*",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
     "@swc/cli": "^0.1.57",
     "@swc/core": "^1.2.220",
     "@types/bcrypt": "^5.0.0",
@@ -72,5 +89,17 @@
     "tsc-alias": "^1.7.0",
     "tsconfig-paths": "^4.0.0",
     "typescript": "^4.7.4"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
   }
 }

@@ -1,26 +1,43 @@
 {
-  "name": "@lentix/tsconfigs",
+  "name": "@lentix/tsconfig-base",
   "version": "0.0.0",
-  "description": "TSConfigs Base Files",
+  "description": "These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.",
+  "main": "dist/index.js",
   "private": true,
-  "main": "./dist/base.json",
   "files": [
-    "*.md",
-    "*.json",
-    "LICENSE",
-    "src/*"
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
   ],
   "scripts": {
-    "preinstall": "",
-    "build": "pnpm run build",
-    "test": "pnpm run jest"
+    "prepare": "npx only-allow pnpm",
+
+    "test": "eslint *.js && node test.js",
+    "coverage": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
   "author": "Lentix",
   "license": "MIT",
+  "homepage": "https://github.com/lentix/tsconfigs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lentix/tsconfigs"
+  },
+  "bugs":{
+    "url" : "https://github.com/lentix/tsconfigs/issues",
+    "email" : "project@hostname.com"
+},
   "devDependencies": {
+    "@types/jest": "29.2.3",
+    "jest": "^29.3.1",
+    "ts-jest": "29.0.3",
+    "tsconfig-paths": "^4.1.1",
     "tsconfig": "^7.0.0",
-    "bases": "^0.2.1"
+    "bases": "^0.2.1",
+    "typescript": "^4.7.2"
   },
   "dependencies": {},
   "prettier": {
@@ -32,8 +49,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint",
-      "pre-push": "yarn test"
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
     }
   }
 }

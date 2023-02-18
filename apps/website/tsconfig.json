@@ -1,4 +1,5 @@
 {
+  //"extends": "@lentix/tsconfig/nextjs.json",
   "compileOnSave": false,
   "compilerOptions": {
     "target": "es2017",
@@ -35,6 +36,6 @@
       "@utils/*": ["utils/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/**/*.ts", "src/**/*.json", ".env"],
   "exclude": ["node_modules", "src/http", "src/logs", "src/tests"]
 }
